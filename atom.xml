@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-15T16:11:28.499Z</updated>
+  <updated>2019-01-15T16:13:02.639Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2019/01/15/2019-1-15%E4%BF%AE%E6%94%B9%E8%83%8C%E6%99%AF%E9%A2%9C%E8%89%B2/"/>
     <id>http://yoursite.com/2019/01/15/2019-1-15修改背景颜色/</id>
     <published>2019-01-15T10:38:00.000Z</published>
-    <updated>2019-01-15T16:11:28.499Z</updated>
+    <updated>2019-01-15T16:13:02.639Z</updated>
     
-    <content type="html"><![CDATA[<p>「成功治好了我的英文阅读恐惧症」</p><a id="more"></a><hr><p>起因：觉得blog雪白一片特别伤眼<br>需求：给blog换个底色，最好是带纹理的那种高级灰<br>步骤：</p><ol><li>上网搜教程，发现全网都是Next主题修改，套用之，发现没用，页面还变成拨号上网时代页面没加载出来的样式，仿佛见鬼</li><li>找到Hexo\themes\maupassant\source\see\style.scss文件逐行阅读，读不懂，但是发现了多处十六进制颜色码</li><li>搜索「#」寻找颜色码进行排查</li></ol><p>结论：<br>在style.scss文件中搜索<br>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">   background-color: #E9E9ED;</span><br></pre></td></tr></table></figure></p><p>替换#F4F3F3为想要的背景色即可（顺便一提我用的是#F6F6F6</p><p>我真是天才又机智！<br>感觉这个色不够冷看起不够高雅但是算了先这样<br>还有纹理什么的我们也过几天再议吧（。</p><p>以及两个或许有帮助的网站：<br><a href="https://colorhunt.co/" target="_blank" rel="noopener">一个漂亮的配色方案网站</a><br><a href="https://www.sioe.cn/yingyong/yanse-rgb-16/" target="_blank" rel="noopener">RGB颜色值与十六进制颜色码转换</a></p><hr>]]></content>
+    <content type="html"><![CDATA[<p>「成功治好了我的英文阅读恐惧症」</p><a id="more"></a><hr><p>起因：觉得blog雪白一片特别伤眼<br>需求：给blog换个底色，最好是带纹理的那种高级灰<br>步骤：</p><ol><li>上网搜教程，发现全网都是Next主题修改，套用之，发现没用，页面还变成拨号上网时代页面没加载出来的样式，仿佛见鬼</li><li>找到Hexo\themes\maupassant\source\see\style.scss文件逐行阅读，读不懂，但是发现了多处十六进制颜色码</li><li>搜索「#」寻找颜色码进行排查</li></ol><p>结论：<br>在style.scss文件中搜索<br>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">   background-color: #E9E9ED;</span><br></pre></td></tr></table></figure></p><p>替换#E9E9ED为想要的背景色即可（顺便一提我用的是#F6F6F6</p><p>我真是天才又机智！<br>感觉这个色不够冷看起不够高雅但是算了先这样<br>还有纹理什么的我们也过几天再议吧（。</p><p>以及两个或许有帮助的网站：<br><a href="https://colorhunt.co/" target="_blank" rel="noopener">一个漂亮的配色方案网站</a><br><a href="https://www.sioe.cn/yingyong/yanse-rgb-16/" target="_blank" rel="noopener">RGB颜色值与十六进制颜色码转换</a></p><hr>]]></content>
     
     <summary type="html">
     
