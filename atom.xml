@@ -235,7 +235,7 @@
     <link href="http://yoursite.com/2018/12/22/hello-world/"/>
     <id>http://yoursite.com/2018/12/22/hello-world/</id>
     <published>2018-12-22T05:52:56.840Z</published>
-    <updated>2018-12-18T13:52:49.468Z</updated>
+    <updated>2019-01-15T14:29:31.048Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2><span id="quick-start">Quick Start</span></h2><h3><span id="create-a-new-post">Create a new post</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3><span id="run-server">Run server</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3><span id="generate-static-files">Generate static files</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3><span id="deploy-to-remote-sites">Deploy to remote sites</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
@@ -248,10 +248,8 @@
     
     </summary>
     
-      <category term="试验田" scheme="http://yoursite.com/categories/%E8%AF%95%E9%AA%8C%E7%94%B0/"/>
+      <category term="飞来就我题红" scheme="http://yoursite.com/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
     
-    
-      <category term="试验田" scheme="http://yoursite.com/tags/%E8%AF%95%E9%AA%8C%E7%94%B0/"/>
     
   </entry>
   
@@ -260,7 +258,7 @@
     <link href="http://yoursite.com/2018/12/22/2018.12.13%E8%AF%95%E9%AA%8C%E5%8F%91%E5%B8%83/"/>
     <id>http://yoursite.com/2018/12/22/2018.12.13试验发布/</id>
     <published>2018-12-22T05:52:56.832Z</published>
-    <updated>2018-12-18T15:19:24.423Z</updated>
+    <updated>2019-01-15T14:28:39.187Z</updated>
     
     <content type="html"><![CDATA[<p>「我讨厌hexo s -debug!」<br><a id="more"></a></p><h2><span id="根据聊天纪录整理">根据聊天纪录整理</span></h2><ul><li>新建文章：hexo new 【文章标题】</li><li>增加页面（侧栏）hexo new page</li><li>所有的文件使用shublime text编辑</li><li>hexo s –debug 开本地浏览 ctrl+c停止</li><li>如果改了东西，先停止浏览，再hexo clean 然后重新浏览才能看到改动</li><li>发布：hexo d -g</li></ul><hr><h2><span id="主题相关">主题相关</span></h2><h3><span id="网站图标">网站图标</span></h3><p>若要设置网站Favicon，可以将<strong>favicon.ico</strong>放在Hexo根目录的source文件夹下，建议的大小：32px<em>32px。<br>若要为网站添加苹果设备图标，请将命名为<strong>apple-touch-icon.png</strong>的图片放在同样的位置，建议的大小：114px</em>114px。</p><h3><span id="文章摘要">文章摘要</span></h3><p>首页默认显示文章摘要而非全文，可以在文章的front-matter中填写一项description:来设置你想显示的摘要，或者直接在文章内容中插入<!--more-->以隐藏后面的内容。<br>若两者都未设置，则自动截取文章第一段作为摘要。</p><h3><span id="添加页面">添加页面</span></h3><p>在source目录下建立相应名称的文件夹，然后在文件夹中建立index.md文件，并在index.md的front-matter中设置layout为layout: page。若需要单栏页面，就将layout设置为 layout: single-column。</p><h3><span id="文章目录">文章目录</span></h3><p>在文章的front-matter中添加toc: true即可让该篇文章显示目录。</p><h3><span id="文章评论">文章评论</span></h3><p>文章和页面的评论功能可以通过在front-matter中设置comments: true或comments: false来进行开启或关闭（默认开启）。</p>]]></content>
     
@@ -270,7 +268,7 @@
     
     </summary>
     
-      <category term="试验田" scheme="http://yoursite.com/categories/%E8%AF%95%E9%AA%8C%E7%94%B0/"/>
+      <category term="飞来就我题红" scheme="http://yoursite.com/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
     
     
       <category term="试验田" scheme="http://yoursite.com/tags/%E8%AF%95%E9%AA%8C%E7%94%B0/"/>
