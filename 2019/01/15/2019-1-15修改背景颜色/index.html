@@ -4,7 +4,7 @@
 <p>起因：觉得blog雪白一片特别伤眼<br>需求：给blog换个底色，最好是带纹理的那种高级灰<br>步骤：</p>
 <ol>
 <li>上网搜教程，发现全网都是Next主题修改，套用之，发现没用，页面还变成拨号上网时代页面没加载出来的样式，仿佛见鬼</li>
-<li>找到Hexo\themes\maupassant\source\see\style.scss文件逐行阅读，读不懂，但是发现了多处十六进制颜色码</li>
+<li>找到Hexo\themes\maupassant\source\CSS\style.scss文件逐行阅读，读不懂，但是发现了多处十六进制颜色码</li>
 <li>搜索「#」寻找颜色码进行排查</li>
 </ol>
 <p>结论：<br>在style.scss文件中搜索<br>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">   background-color: #E9E9ED;</span><br></pre></td></tr></table></figure></p>
