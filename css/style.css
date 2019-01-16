@@ -23,7 +23,8 @@ body {
   font-family: "source-han-serif-sc", serif,"TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 14px; }
+  font-size: 16px;
+  font-weight: 300; }
 
 .body_container {
   padding: 0 60px;
@@ -166,7 +167,7 @@ div {
     margin: 0;
     color: #555;
     text-align: left;
-    font: bold 25px/1.1 "source-han-serif-sc", serif,"ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif; }
+    font: 700 28px/1.1 "source-han-serif-sc", serif,"ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif; }
     .post .post-title a {
       color: #555; }
   .post .post-meta {
@@ -177,15 +178,15 @@ div {
     display: inline;
     text-indent: .15em; }
     .post .post-meta:before {
-      font-family: "FontAwesome";
+      font-family: "source-han-serif-sc", serif,"FontAwesome";
       content: "\f073";
       padding-right: 0.3em; }
     .post .post-meta .category:before {
-      font-family: "FontAwesome";
+      font-family: "source-han-serif-sc", serif,"FontAwesome";
       content: "\f07c";
       padding-right: 0.3em; }
     .post .post-meta #busuanzi_value_page_pv:before {
-      font-family: "FontAwesome";
+      font-family: "source-han-serif-sc", serif,"FontAwesome";
       content: "\f024";
       padding-right: 0.3em; }
   .post .ds-thread-count {
@@ -196,7 +197,7 @@ div {
     display: inline;
     text-indent: .15em; }
     .post .ds-thread-count:before {
-      font-family: "FontAwesome";
+      font-family: "source-han-serif-sc", serif,"FontAwesome";
       content: "\f0e5";
       padding-right: 0.3em; }
     .post .ds-thread-count:hover {
@@ -209,14 +210,14 @@ div {
     display: inline;
     text-indent: .15em; }
     .post .disqus-comment-count:before {
-      font-family: "FontAwesome";
+      font-family: "source-han-serif-sc", serif,"FontAwesome";
       content: "\f0e5";
       padding-right: 0.3em; }
     .post .disqus-comment-count:hover {
       color: #444; }
   .post .post-content {
     clear: left;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.77;
     color: #444;
     padding-top: 15px;
@@ -284,7 +285,7 @@ div {
     .post .tags a {
       margin-right: .5em; }
       .post .tags a:before {
-        font-family: "FontAwesome";
+        font-family: "source-han-serif-sc", serif,"FontAwesome";
         content: "\f0c6";
         padding-right: 0.3em; }
 
@@ -311,13 +312,13 @@ div {
     .page-navigator a.prev, .page-navigator span.prev {
       float: left; }
       .page-navigator a.prev:before, .page-navigator span.prev:before {
-        font-family: "FontAwesome";
+        font-family: "source-han-serif-sc", serif,"FontAwesome";
         content: "\f100";
         padding-right: 0.3em; }
     .page-navigator a.next, .page-navigator span.next {
       float: right; }
       .page-navigator a.next:after, .page-navigator span.next:after {
-        font-family: "FontAwesome";
+        font-family: "source-han-serif-sc", serif,"FontAwesome";
         content: "\f101";
         padding-left: 0.3em; }
   .page-navigator .current {
@@ -739,7 +740,7 @@ pre {
   border-radius: 5px;
   float: right; }
   .readmore a:after {
-    font-family: "FontAwesome";
+    font-family: "source-han-serif-sc", serif,"FontAwesome";
     content: "\f101";
     padding-left: 0.3em; }
   .readmore a:hover {
