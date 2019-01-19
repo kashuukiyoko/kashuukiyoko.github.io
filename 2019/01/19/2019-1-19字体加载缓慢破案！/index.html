@@ -7,6 +7,7 @@
 <p>在 CSS 文件搜索了 400 这个参数以后发现只有评论插件的字重写了 font-weight，并找不到模板默认字重在哪里，shioko 给了一个直接加在 css 文件下面的代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*&#123;font-weight:300 !important&#125;</span><br><span class="line">strong&#123;font-weight:500 !important&#125;</span><br><span class="line">h1,h2,h3,h4,h5,h6&#123;font-weight:700 !important&#125;</span><br></pre></td></tr></table></figure></p>
 <p>写上去以后首页的字重全部变成了 300，但点进文章字重正常。</p>
 <p>…… 然后我翻到了我前几天写修改 css 配置里保存的几个配置信息，福至心灵地往 <code>post</code> 和 <code>post-content</code> 里各加上了 <code>font-weight:300；</code> 和 <code>font-weight:700；</code>，然后部署发布找了个朋友帮忙看看——她没看出来有加载！！</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>所以我估摸着大概是解决了吧……</p>
 <p>经验教训说明写问题解决日志和及时备份真的太重要了。<br>以及我发现 blog 用不同浏览器看字体很不一样，用 Google 浏览器最好看。</p>
 <hr>

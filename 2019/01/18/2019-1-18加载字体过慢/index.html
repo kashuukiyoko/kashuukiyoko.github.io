@@ -7,7 +7,7 @@
 <li>如果电脑上有思源宋体，那么调用本地字体</li>
 <li>如果电脑上没有，从 Abode Typekit 调用加载</li>
 </ol>
-<p>之前 shioko 给过我一个类似的解决方案，但是她说这个方案会更慢，我研究了一下，果不其然，成功报错。（事实上我搞代码这种东西不报错才不正常……）<br>两个人又吭哧吭哧研究了半天，旋岚突然截个图跟我说，你看你这个字体文件的名字显示的不是 <code>source-han-serif-sc, serif</code> 而是 <code>思源宋体 CN Medium</code><br>我福至心灵一拍大腿，去重写了 family-font<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">font-family:&quot; 思源宋体 CN Medium&quot;, serif, &quot;source-han-serif-sc&quot;, serif, &quot;Microsoft YaHei&quot;, sans-serif !important;</span><br></pre></td></tr></table></figure></p>
+<p>之前 shioko 给过我一个类似的解决方案，但是她说这个方案会更慢，我研究了一下，果不其然，成功报错。（事实上我搞代码这种东西不报错才不正常……）<br>两个人又吭哧吭哧研究了半天，旋岚突然截个图跟我说，你看你这个字体文件的名字显示的不是 <code>source-han-serif-sc, serif</code> 而是 <code>思源宋体 CN Medium</code><br>我福至心灵一拍大腿，去重写了 family-font<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">font-family: &quot; 思源宋体 CN&quot;, &quot;source-han-serif-sc&quot;, serif,&quot;PingFangSC-Regular&quot;, Helvetica, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, &quot;Source Han Sans CN&quot;, &quot;Microsoft YaHei&quot;, &quot;STHeiti&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif !important;</span><br></pre></td></tr></table></figure></p>
 <p>hexo s -debug，成功了！</p>
 <hr>
 <h3><span id="最后的解决方案">最后的解决方案</span></h3><p>在 Style.css 文件的 pure-g，body，.post-title 下面的 family-font 行的最前面分别加上 <code>&quot;思源宋体 CN&quot;, serif,</code>，当你电脑里有思源宋体的时候，就会直接调用你的本地字体</p>
