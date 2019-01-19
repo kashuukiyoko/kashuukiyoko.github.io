@@ -165,6 +165,7 @@ div {
   padding: 25px 0 15px; }
   .post .post-title {
     margin: 0;
+    font-weight: 700;
     color: #555;
     text-align: left;
     font: bold 25px/1.1 "source-han-serif-sc", serif,"ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif; }
@@ -223,7 +224,8 @@ div {
     padding-top: 15px;
     text-align: justify;
     text-justify: distribute;
-    word-break: normal; }
+    word-break: normal;
+    font-weight: 300; }
     .post .post-content h2 {
       margin: 1.4em 0 1.1em;
       border-bottom: 1px solid #eee;
