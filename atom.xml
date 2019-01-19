@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kashuukiyoko.github.io/"/>
-  <updated>2019-01-15T14:29:31.048Z</updated>
+  <updated>2019-01-18T15:51:08.000Z</updated>
   <id>https://kashuukiyoko.github.io/</id>
   
   <author>
@@ -15,51 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://kashuukiyoko.github.io/2019/01/19/hello-world/"/>
-    <id>https://kashuukiyoko.github.io/2019/01/19/hello-world/</id>
-    <published>2019-01-19T05:16:56.185Z</published>
-    <updated>2019-01-15T14:29:31.048Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2><span id="quick-start">Quick Start</span></h2><h3><span id="create-a-new-post">Create a new post</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3><span id="run-server">Run server</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3><span id="generate-static-files">Generate static files</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3><span id="deploy-to-remote-sites">Deploy to remote sites</span></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>试验 | 相关命令存档</title>
-    <link href="https://kashuukiyoko.github.io/2019/01/19/2018.12.13%E8%AF%95%E9%AA%8C%E5%8F%91%E5%B8%83/"/>
-    <id>https://kashuukiyoko.github.io/2019/01/19/2018.12.13试验发布/</id>
-    <published>2019-01-19T05:16:56.170Z</published>
-    <updated>2019-01-15T14:28:39.187Z</updated>
-    
-    <content type="html"><![CDATA[<p>「我讨厌 hexo s -debug!」<br><a id="more"></a></p><h2><span id="根据聊天纪录整理">根据聊天纪录整理</span></h2><ul><li>新建文章：hexo new 【文章标题】</li><li>增加页面（侧栏）hexo new page</li><li>所有的文件使用 shublime text 编辑</li><li>hexo s –debug 开本地浏览 ctrl+c 停止</li><li>如果改了东西，先停止浏览，再 hexo clean 然后重新浏览才能看到改动</li><li>发布：hexo d -g</li></ul><hr><h2><span id="主题相关">主题相关</span></h2><h3><span id="网站图标">网站图标</span></h3><p>若要设置网站 Favicon，可以将 <strong>favicon.ico</strong> 放在 Hexo 根目录的 source 文件夹下，建议的大小：32px<em>32px。<br>若要为网站添加苹果设备图标，请将命名为 <strong>apple-touch-icon.png</strong> 的图片放在同样的位置，建议的大小：114px</em>114px。</p><h3><span id="文章摘要">文章摘要</span></h3><p>首页默认显示文章摘要而非全文，可以在文章的 front-matter 中填写一项 description: 来设置你想显示的摘要，或者直接在文章内容中插入 <!--more--> 以隐藏后面的内容。<br>若两者都未设置，则自动截取文章第一段作为摘要。</p><h3><span id="添加页面">添加页面</span></h3><p>在 source 目录下建立相应名称的文件夹，然后在文件夹中建立 index.md 文件，并在 index.md 的 front-matter 中设置 layout 为 layout: page。若需要单栏页面，就将 layout 设置为 layout: single-column。</p><h3><span id="文章目录">文章目录</span></h3><p>在文章的 front-matter 中添加 toc: true 即可让该篇文章显示目录。</p><h3><span id="文章评论">文章评论</span></h3><p>文章和页面的评论功能可以通过在 front-matter 中设置 comments: true 或 comments: false 来进行开启或关闭（默认开启）。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;「我讨厌 hexo s -debug!」&lt;br&gt;
-    
-    </summary>
-    
-      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
-    
-    
-      <category term="试验田" scheme="https://kashuukiyoko.github.io/tags/%E8%AF%95%E9%AA%8C%E7%94%B0/"/>
-    
-  </entry>
   
   <entry>
     <title>题红 | 解决 Abode typekit 加载字体过慢</title>
@@ -198,30 +153,6 @@
     
       <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>题红 | 在泛用型播客上订阅喜马拉雅音频</title>
-    <link href="https://kashuukiyoko.github.io/2019/01/05/2019.1.4%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%E6%92%AD%E5%AE%A2/"/>
-    <id>https://kashuukiyoko.github.io/2019/01/05/2019.1.4喜马拉雅播客/</id>
-    <published>2019-01-05T10:38:00.000Z</published>
-    <updated>2019-01-04T14:02:33.694Z</updated>
-    
-    <content type="html"><![CDATA[<p>「部分失败，记一下过程」</p><a id="more"></a><hr><p>起因：喜欢 Moon FM 的简洁界面和增强声音功能，试图把法考音频导入到 Moon FM 来听<br>工具：RSSHub<br>经过：</p><ol><li><p>部署<a href="https://docs.rsshub.app/" target="_blank" rel="noopener">RSSHub</a></p><p>这里有部署 hexo 博客的经验，所以相对顺利，中间报错数次，通过耐心读报错和大量谷歌顺利解决<br>…… 其实最后也大量报 WARN 但是突发灵感无视掉了它们直接启动了 Rsshub<br>成功了！</p></li><li><p>研究如何导入喜马拉雅音频</p><p>根据 <a href="https://docs.rsshub.app/#%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85" target="_blank" rel="noopener">RSSHub 文档</a> 的订阅办法，只需要将音频专辑的数字编号替换进 RSS 订阅地址即可，并且只支持如下形式的网址进行订阅</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">https://rsshub.app/ximalaya/album/*</span><br><span class="line">https://rsshub.app/ximalaya/album/*.rss</span><br></pre></td></tr></table></figure><p>But 我要订阅的柏浪涛刑法讲义的网址形式是</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.ximalaya.com/jiaoyu/19594238/</span><br></pre></td></tr></table></figure><p>最后发现通过网页上分享 - QQ - 右键分享复制链接，可以生成这样一个网址</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.ximalaya.com/album/19594238#0-sqq-1-40667-9737f6f9e09dfaf5d3fd14d775bfee85</span><br></pre></td></tr></table></figure><p>提取中间的 19594238，替换进订阅网址，成功了！<br>——但是仔细一看，这 TM 不就是原来 / jiaoyu/xxxxxx 里面的数字吗！我折腾这么半天是干嘛来了！！</p></li><li><p>导入 Moon FM</p><p>Moon FM 似乎不支持通过 URL 订阅，曲线救国，通过 Castro 进行 URL 订阅，导出订阅 OPML 文件到 IOS 文件，打开 IOS 文件，长按分享到 Moon FM<br>…… 这一套这么流畅我觉得 Moon FM 应该支持通过 URL 订阅的但是入口藏得太深我没找到</p></li></ol><p>最后订阅成功，但是发现订阅源只能抓取前 30 个音频（专辑页面第一页），第二页则无法抓取，在 RSSHub telegram 群问了一下，被告知无法解决，暂时先搁置了。</p><hr>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;「部分失败，记一下过程」&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
-    
-    
-      <category term="2019" scheme="https://kashuukiyoko.github.io/tags/2019/"/>
-    
-      <category term="题红" scheme="https://kashuukiyoko.github.io/tags/%E9%A2%98%E7%BA%A2/"/>
     
   </entry>
   
@@ -374,7 +305,7 @@
     <link href="https://kashuukiyoko.github.io/2018/12/13/2018.12.13%E8%AF%95%E9%AA%8C%E5%8F%91%E5%B8%83%20-%20%E5%89%AF%E6%9C%AC/"/>
     <id>https://kashuukiyoko.github.io/2018/12/13/2018.12.13试验发布 - 副本/</id>
     <published>2018-12-13T08:38:00.000Z</published>
-    <updated>2019-01-18T15:39:04.000Z</updated>
+    <updated>2019-01-19T06:14:12.931Z</updated>
     
     <content type="html"><![CDATA[<hr><h2><span id="根据聊天纪录整理">根据聊天纪录整理</span></h2><ul><li>新建文章：hexo new 【文章标题】</li><li>增加页面（侧栏）hexo new page</li><li>所有的文件使用 shublime text 编辑</li><li>hexo s –debug 开本地浏览 ctrl+c 停止</li><li>如果改了东西，先停止浏览，再 hexo clean 然后重新浏览才能看到改动</li><li>发布：hexo d -g</li></ul><hr><h2><span id="主题相关">主题相关</span></h2><h3><span id="网站图标">网站图标</span></h3><p>若要设置网站 Favicon，可以将 <strong>favicon.ico</strong> 放在 Hexo 根目录的 source 文件夹下，建议的大小：32px<em>32px。<br>若要为网站添加苹果设备图标，请将命名为 <strong>apple-touch-icon.png</strong> 的图片放在同样的位置，建议的大小：114px</em>114px。</p><h3><span id="文章摘要">文章摘要</span></h3><p>首页默认显示文章摘要而非全文，可以在文章的 front-matter 中填写一项 description: 来设置你想显示的摘要，或者直接在文章内容中插入 <a id="more"></a> 以隐藏后面的内容。<br>若两者都未设置，则自动截取文章第一段作为摘要。</p><h3><span id="添加页面">添加页面</span></h3><p>在 source 目录下建立相应名称的文件夹，然后在文件夹中建立 index.md 文件，并在 index.md 的 front-matter 中设置 layout 为 layout: page。若需要单栏页面，就将 layout 设置为 layout: single-column。</p><h3><span id="文章目录">文章目录</span></h3><p>在文章的 front-matter 中添加 toc: true 即可让该篇文章显示目录。</p><h3><span id="文章评论">文章评论</span></h3><p>文章和页面的评论功能可以通过在 front-matter 中设置 comments: true 或 comments: false 来进行开启或关闭（默认开启）。</p>]]></content>
     
