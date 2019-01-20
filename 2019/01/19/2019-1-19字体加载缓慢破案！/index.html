@@ -19,4 +19,22 @@
 <hr>
 <h3><span id="2252-更新">22:52 更新</span></h3><p>疑心病发作，把倒腾的东西全都删了，把 Abode typekit 上的字重更改成 400，重新粘贴了一遍代码</p>
 <p>还慢的话我就不管了<em>(:з」∠)</em></p>
+<hr>
+<h3><span id="120-更新">1.20 更新</span></h3><p>这次更新主要是因为 lanee 告诉我又又又又又出问题了，她说昨晚是正常的，但是今天早上一看加载又不正常了，看了 github 发现是因为 github 的文件没有更新过去，仍然是昨天下午的更新。（也就是说我昨晚字重改到 400 根本没生效）</p>
+<p>参考 <a href="https://github.com/hexojs/hexo/issues/579" target="_blank" rel="noopener">deploy 后 style.css 不对</a></p>
+<p>解决办法：在部署发布前增加 <code>hexo clean</code>（我就说一直奇怪 clean 命令是做什么用的……）</p>
+<p>于是我又把字重改回了 300，然后：</p>
+<blockquote>
+<p>我测试了一遍各种字重…… 感觉 300 就是比 400 慢</p>
+<p>就很奇怪。比如设置 400 可能开十个页面里有一次是等待时间超过 10s，300 开十个页面就有五次……  具体的我也不懂了可能和 typekit 的代码有关系</p>
+</blockquote>
+<p>BUT 字重调成 400 的话我的字号会显得挤，调大一号会没有对比，为了好看我决定不要速度啦！</p>
+<hr>
+<h3><span id="以及另一个优化">以及另一个优化</span></h3><p>把 typekit 的代码改在了 head 文件里。</p>
+<blockquote>
+<p>还有一个优化的地方，就是 typekit 的代码也要放在 head 里 这样它开始加载的时间会早一点 </p>
+<p>这几个 pug 文件格式都是一样的，对应页面不同的地方，head 就是 body 之前的部分 footer 就是页脚 </p>
+</blockquote>
+<p>路径是 <code>E:\hexo\themes\maupassant\layout\_partial</code>，之前一直报错，这次写在最下面突然就不报错了……</p>
+<p>代码真是玄学<em>(:з」∠)</em>现在特别理解了，究竟是什么让程序员们围着服务器跳舞，以及请道士驱邪 。</p>
 </div><div class="tags"></div><div class="post-nav"><a class="pre" href="/2019/01/19/2019-1-19礼物的流动/">书摘 | 礼物的流动</a><a class="next" href="/2019/01/18/2019-1-18加载字体过慢/">题红 | 解决 Abode typekit 加载字体过慢</a></div></div></div></div><div class="pure-u-1 pure-u-md-1-4"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"><input type="hidden" name="sitesearch" value="https://kashuukiyoko.github.io"></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/分与读书灯/">分与读书灯</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/放翁又看一年春/">放翁又看一年春</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/醒时节披衣坐/">醒时节披衣坐</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/飞来就我题红/">飞来就我题红</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="https://miyehn.me/blog/" title="槽" target="_blank">槽</a><ul></ul><a href="http://z.arlmy.me/" title="素生" target="_blank">素生</a><ul></ul><a href="https://xuanlan9870.github.io/" title="烁光荒野" target="_blank">烁光荒野</a><ul></ul><a href="https://co5.me/" title="†少女癌†" target="_blank">†少女癌†</a><ul></ul><a href="https://binghuohunhewu.com/" title="冰火混合物" target="_blank">冰火混合物</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2019 <a href="/." rel="nofollow">懒云休憩室.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/3.5.2/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/3.5.2/jquery.fancybox.min.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
