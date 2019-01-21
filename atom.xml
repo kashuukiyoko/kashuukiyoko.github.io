@@ -403,4 +403,33 @@
     
   </entry>
   
+  <entry>
+    <title>hexo 博客常用插件及教程</title>
+    <link href="https://kashuukiyoko.github.io/2018/07/31/hexo%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6%E5%8F%8A%E6%95%99%E7%A8%8B/"/>
+    <id>https://kashuukiyoko.github.io/2018/07/31/hexo博客常用插件及教程/</id>
+    <published>2018-07-31T12:29:38.000Z</published>
+    <updated>2018-10-13T14:53:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>为大家总结下 hexo 常用的插件与教程</p><p>合理的使用插件能够提高 hexo 的效率</p></blockquote><a id="more"></a><table><thead><tr><th style="text-align:center">命令</th><th style="text-align:center">功能</th><th style="text-align:center">文档</th></tr></thead><tbody><tr><td style="text-align:center">npm install hexo-generator-index-pin-top –save<br>npm uninstall hexo-generator-index –save</td><td style="text-align:center">文章置顶插件</td><td style="text-align:center"><a href="https://blog.csdn.net/qwerty200696/article/details/79010629" target="_blank" rel="noopener">点我</a></td></tr><tr><td style="text-align:center">npm i –save hexo-wordcount</td><td style="text-align:center">文章字数 + 阅读时长统计</td><td style="text-align:center"><a href="https://blog.csdn.net/ganzhilin520/article/details/79048036" target="_blank" rel="noopener">点我</a></td></tr><tr><td style="text-align:center">npm install hexo-baidu-url-submit –save</td><td style="text-align:center">百度链接主动推送</td><td style="text-align:center"><a href="https://hui-wang.info/2016/10/23/Hexo%E6%8F%92%E4%BB%B6%E4%B9%8B%E7%99%BE%E5%BA%A6%E4%B8%BB%E5%8A%A8%E6%8F%90%E4%BA%A4%E9%93%BE%E6%8E%A5/" target="_blank" rel="noopener">点我</a></td></tr><tr><td style="text-align:center">npm install hexo-deployer-ftpsync –save</td><td style="text-align:center">hexo 上传至 FTP 服务器</td><td style="text-align:center"><a href="https://hexo.io/zh-cn/docs/deployment.html#FTPSync" target="_blank" rel="noopener">点我</a></td></tr><tr><td style="text-align:center">npm install hexo-deployer-cos –save</td><td style="text-align:center">hexo 上传至腾讯云 COS</td><td style="text-align:center"><a href="https://github.com/sdlzhd/hexo-deployer-cos#user-content-options" target="_blank" rel="noopener">点我</a></td></tr><tr><td style="text-align:center">npm install hexo-deployer-aliyun –save</td><td style="text-align:center">hexo 上传至阿里云</td><td style="text-align:center"><a href="https://github.com/yedaodao/hexo-deployer-aliyun" target="_blank" rel="noopener">点我</a></td></tr><tr><td style="text-align:center">npm install –save hexo-admin</td><td style="text-align:center">hexo 管理插件</td><td style="text-align:center"><a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="noopener">点我</a></td></tr><tr><td style="text-align:center">hexo-blog-encrypt(请看文档)</td><td style="text-align:center">hexo 文章加密码</td><td style="text-align:center"><a href="https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md" target="_blank" rel="noopener">点我</a></td></tr><tr><td style="text-align:center">卜算子 ip 计数统计</td><td style="text-align:center">IP 计数统计</td><td style="text-align:center"><a href="https://www.jianshu.com/p/8a8f880f40c0" target="_blank" rel="noopener">点我</a></td></tr><tr><td style="text-align:center">npm install leancloud-storage –save</td><td style="text-align:center">Valine 评论</td><td style="text-align:center"><a href="https://valine.js.org/quickstart.html#npm" target="_blank" rel="noopener">点我</a></td></tr><tr><td style="text-align:center">Valine 评论邮件通知</td><td style="text-align:center">Valine 评论提醒</td><td style="text-align:center"><a href="http://www.zhaojun.im/hexo-valine-admin/" target="_blank" rel="noopener">点我</a></td></tr></tbody></table><blockquote><p>有需要的却找不到的，或者有优化方面的问题，都可以在下方留言，博主都会帮你解答</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;为大家总结下 hexo 常用的插件与教程&lt;/p&gt;
+&lt;p&gt;合理的使用插件能够提高 hexo 的效率&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://kashuukiyoko.github.io/categories/hexo/"/>
+    
+    
+      <category term="hexo插件" scheme="https://kashuukiyoko.github.io/tags/hexo%E6%8F%92%E4%BB%B6/"/>
+    
+      <category term="hexo博客" scheme="https://kashuukiyoko.github.io/tags/hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="hexo教程" scheme="https://kashuukiyoko.github.io/tags/hexo%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
 </feed>
