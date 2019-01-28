@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kashuukiyoko.github.io/"/>
-  <updated>2019-01-28T14:50:48.591Z</updated>
+  <updated>2019-01-28T16:42:26.232Z</updated>
   <id>https://kashuukiyoko.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>题红 | 更新 blog 界面与加入豆瓣插件</title>
+    <link href="https://kashuukiyoko.github.io/posts/48464f3/"/>
+    <id>https://kashuukiyoko.github.io/posts/48464f3/</id>
+    <published>2019-01-28T16:06:44.316Z</published>
+    <updated>2019-01-28T16:42:26.232Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>其实我今天本来是想写个轻松的近期购物 list 顺带记录点 repo，这样以后看看还能少花冤枉钱，结果搜索 markdown 如何图文混排（好像 Maupassant 主题不支持 html 语法中的图片居左，我枯了）的时候找到了一个爬取豆瓣读书和电影的插件，好奇地用了用，弄着弄着就把整个主页重新排了一遍，又 Google 了四个小时……</p><p>并且发现我完全是问题驱动导向，让我系统地学学 html 之类的前端技术我困得要死，研究怎么解决想解决的问题折腾到凌晨还精神奕奕…… 就是身体已经扛不住了这次要按折腾的顺序来写的话还能写两千字 But 我真的已经写不动……</p><hr><h2><span id="豆瓣读书-电影插件">豆瓣读书 / 电影插件</span></h2><p>参考文档：<a href="https://github.com/mythsman/hexo-douban" target="_blank" rel="noopener">hexo-douban</a></p><p>其实这个在安装的时候没什么要说的，基本上很顺利，配置的时候倒是出了点文档中没有提到的问题。</p><p><strong> 配置新页面 </strong> 的时候，在 <code>_config.yml</code> 文件中要这么写</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">- page: reading</span><br><span class="line">  directory: books/</span><br><span class="line">  icon: fa-book</span><br><span class="line">- page: movies</span><br><span class="line">  directory: movies</span><br><span class="line">  icon: fa-video-camera</span><br></pre></td></tr></table></figure><p>这样的话引用的就是 <code>hexo-douban</code> 插件生成的 html 文件</p><p><strong> 修改豆瓣页面 CSS 或者重新抓取后，</strong> 每次 <code>hexo s -debug</code> 预览的时候，需要先 <code>hexo douban</code> 一下每次 <code>hexo s -debug</code> 预览的时候，需要先 <code>hexo douban</code> 一下重新生产新页面（改字号的时候我每次改完都要来这么一次我反复跳楼）</p><p><strong> 不要配置 </strong><code>builtin</code> 参数为 <code>true</code>！如果这样的话每次预览部署更新都要爬一次豆瓣，很要命……</p><p><strong> 当安装了 </strong><code>hexo douban</code> 之后，就不能用 <code>hexo d</code> 了，因为 <code>hexo douban</code> 跟 <code>hexo deploy</code> 的前缀都是 <code>hexo d</code>。（by 文档</p><p><strong> 修改字号的 css 文件 </strong> 在 <code>E:\hexo\node_modules\hexo-douban</code> 里，<code>control+F</code> 搜索 <code>css</code> 后第一个文件，应该修改的是这两段吧，记忆有点不靠谱，但是没勇气再试一遍了……</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.hexo-douban-meta &#123;</span><br><span class="line">    font-size: 14px;</span><br><span class="line">    padding-right: 10px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.hexo-douban-comments &#123;</span><br><span class="line">    font-size: 14px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><hr><h2><span id="配置-blog-永久链接">配置 blog 永久链接</span></h2><p>参考链接：<a href="https://github.com/Rozbo/hexo-abbrlink" target="_blank" rel="noopener">HEXO-abbrlink</a></p><p>这个也没什么说的，只需要注意一点→把 markdown 文件写完了再往 post 文件夹保存，不然出来的 abbrlink 编号有可能和某一篇文章一模一样<em>(:з」∠)</em></p><hr><h2><span id="还想做点啥">还想做点啥</span></h2><p>改了首页的布局，把友情链接和收藏夹全都放到了右边，本来想写一个 widget，但是研究半天发现并搞不定，索性就把整个友情链接重新改造了一下，有朝一日想把右边的 widget 再搞一搞加点功能。</p><p>豆瓣页面的标题和引用死活删不掉，我还是比较想把它删掉，试错成本太高了我反复跳楼。</p><p>想给 blog 加个置顶文章，然后摆个题图，感觉会比较生动活泼！留意一下什么图放过来比较好看，置顶好像有插件可以实现的，下次再说下次再说！</p>]]></content>
+    
+    <summary type="html">
+    
+      「写不了widgets，那就快乐地暴力破解吧」
+    
+    </summary>
+    
+      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>题红 | 图片上传测试以及模板测试</title>
@@ -396,26 +416,6 @@
     </summary>
     
       <category term="分与读书灯" scheme="https://kashuukiyoko.github.io/categories/%E5%88%86%E4%B8%8E%E8%AF%BB%E4%B9%A6%E7%81%AF/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>试验 | 相关命令存档</title>
-    <link href="https://kashuukiyoko.github.io/posts/c57c0bc1/"/>
-    <id>https://kashuukiyoko.github.io/posts/c57c0bc1/</id>
-    <published>2018-12-13T08:38:00.000Z</published>
-    <updated>2019-01-28T14:50:48.571Z</updated>
-    
-    <content type="html"><![CDATA[<hr><h2><span id="根据聊天纪录整理">根据聊天纪录整理</span></h2><ul><li>新建文章：hexo new 【文章标题】</li><li>增加页面（侧栏）hexo new page</li><li>所有的文件使用 shublime text 编辑</li><li>hexo s –debug 开本地浏览 ctrl+c 停止</li><li>如果改了东西，先停止浏览，再 hexo clean 然后重新浏览才能看到改动</li><li>发布：hexo d -g</li></ul><hr><h2><span id="主题相关">主题相关</span></h2><h3><span id="网站图标">网站图标</span></h3><p>若要设置网站 Favicon，可以将 <strong>favicon.ico</strong> 放在 Hexo 根目录的 source 文件夹下，建议的大小：32px<em>32px。<br>若要为网站添加苹果设备图标，请将命名为 <strong>apple-touch-icon.png</strong> 的图片放在同样的位置，建议的大小：114px</em>114px。</p><h3><span id="文章摘要">文章摘要</span></h3><p>首页默认显示文章摘要而非全文，可以在文章的 front-matter 中填写一项 description: 来设置你想显示的摘要，或者直接在文章内容中插入 <a id="more"></a> 以隐藏后面的内容。<br>若两者都未设置，则自动截取文章第一段作为摘要。</p><h3><span id="添加页面">添加页面</span></h3><p>在 source 目录下建立相应名称的文件夹，然后在文件夹中建立 index.md 文件，并在 index.md 的 front-matter 中设置 layout 为 layout: page。若需要单栏页面，就将 layout 设置为 layout: single-column。</p><h3><span id="文章目录">文章目录</span></h3><p>在文章的 front-matter 中添加 toc: true 即可让该篇文章显示目录。</p><h3><span id="文章评论">文章评论</span></h3><p>文章和页面的评论功能可以通过在 front-matter 中设置 comments: true 或 comments: false 来进行开启或关闭（默认开启）。</p>]]></content>
-    
-    <summary type="html">
-    
-      「我讨厌hexo s -debug!」
-    
-    </summary>
-    
-      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
     
     
   </entry>
