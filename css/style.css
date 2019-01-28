@@ -226,7 +226,7 @@ div {
     text-justify: distribute;
     word-break: normal;
     font-weight: 300; }
-    .post .post-content h2 {
+    .post .post-content 、 h2 {
       margin: 1.4em 0 1.1em;
       border-bottom: 1px solid #eee;
       overflow: hidden; }
