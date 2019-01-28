@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kashuukiyoko.github.io/"/>
-  <updated>2019-01-28T11:50:04.418Z</updated>
+  <updated>2019-01-22T14:18:37.325Z</updated>
   <id>https://kashuukiyoko.github.io/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="https://kashuukiyoko.github.io/2019/01/28/%E8%B4%AD%E7%89%A9/"/>
-    <id>https://kashuukiyoko.github.io/2019/01/28/购物/</id>
-    <published>2019-01-28T11:10:14.934Z</published>
-    <updated>2019-01-28T11:50:04.418Z</updated>
-    
-    <content type="html"><![CDATA[<h2><span id="近日购物清单">近日购物清单</span></h2><p>一些近日花钱如流水的相关 repo，最近花钱真的好厉害但是科技也真的拯救生活。</p><h3><span id="airpods">☞ AirPods</span></h3><p>购入平台：苏宁</p><p>购入价格：1274</p><div align="left"><br><img src="https://res.cloudinary.com/kashuu/image/upload/v1548675819/190128%E8%B4%AD%E7%89%A9%E6%B8%85%E5%8D%95/blog%E9%85%8D%E5%9B%BE1.jpg" height="300px" alt=""><br></div><p>用过两个蓝牙无线耳机（一个有挂耳线一个是带充电仓的，都是耳塞款）后我终于明白了一个事实：我就不能带耳塞款，耳朵痛起来脑子会坏，于是把华为 mate20 卖了我就高高兴兴去下了个单，这个价格其实比较高了，但是刚需，就懒得等。</p><p>苏宁直接送到了办公室，充电仓好小一个，非常适合放在手里盘，找到了之前姐姐</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2&gt;&lt;span id=&quot;近日购物清单&quot;&gt;近日购物清单&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;一些近日花钱如流水的相关 repo，最近花钱真的好厉害但是科技也真的拯救生活。&lt;/p&gt;
-&lt;h3&gt;&lt;span id=&quot;airpods&quot;&gt;☞ AirPods&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;购入平台：苏
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>题红 | 图片上传测试以及模板测试</title>
@@ -418,6 +396,26 @@
     </summary>
     
       <category term="分与读书灯" scheme="https://kashuukiyoko.github.io/categories/%E5%88%86%E4%B8%8E%E8%AF%BB%E4%B9%A6%E7%81%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>试验 | 相关命令存档</title>
+    <link href="https://kashuukiyoko.github.io/2018/12/13/2018.12.13%E8%AF%95%E9%AA%8C%E5%8F%91%E5%B8%83%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>https://kashuukiyoko.github.io/2018/12/13/2018.12.13试验发布 - 副本/</id>
+    <published>2018-12-13T08:38:00.000Z</published>
+    <updated>2019-01-19T06:14:12.931Z</updated>
+    
+    <content type="html"><![CDATA[<hr><h2><span id="根据聊天纪录整理">根据聊天纪录整理</span></h2><ul><li>新建文章：hexo new 【文章标题】</li><li>增加页面（侧栏）hexo new page</li><li>所有的文件使用 shublime text 编辑</li><li>hexo s –debug 开本地浏览 ctrl+c 停止</li><li>如果改了东西，先停止浏览，再 hexo clean 然后重新浏览才能看到改动</li><li>发布：hexo d -g</li></ul><hr><h2><span id="主题相关">主题相关</span></h2><h3><span id="网站图标">网站图标</span></h3><p>若要设置网站 Favicon，可以将 <strong>favicon.ico</strong> 放在 Hexo 根目录的 source 文件夹下，建议的大小：32px<em>32px。<br>若要为网站添加苹果设备图标，请将命名为 <strong>apple-touch-icon.png</strong> 的图片放在同样的位置，建议的大小：114px</em>114px。</p><h3><span id="文章摘要">文章摘要</span></h3><p>首页默认显示文章摘要而非全文，可以在文章的 front-matter 中填写一项 description: 来设置你想显示的摘要，或者直接在文章内容中插入 <a id="more"></a> 以隐藏后面的内容。<br>若两者都未设置，则自动截取文章第一段作为摘要。</p><h3><span id="添加页面">添加页面</span></h3><p>在 source 目录下建立相应名称的文件夹，然后在文件夹中建立 index.md 文件，并在 index.md 的 front-matter 中设置 layout 为 layout: page。若需要单栏页面，就将 layout 设置为 layout: single-column。</p><h3><span id="文章目录">文章目录</span></h3><p>在文章的 front-matter 中添加 toc: true 即可让该篇文章显示目录。</p><h3><span id="文章评论">文章评论</span></h3><p>文章和页面的评论功能可以通过在 front-matter 中设置 comments: true 或 comments: false 来进行开启或关闭（默认开启）。</p>]]></content>
+    
+    <summary type="html">
+    
+      「我讨厌hexo s -debug!」
+    
+    </summary>
+    
+      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
     
     
   </entry>
