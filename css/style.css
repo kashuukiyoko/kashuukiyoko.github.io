@@ -24,7 +24,7 @@ body {
   font-family: "思源宋体 CN", "source-han-serif-sc", serif,"TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 14px; }
+  font-size: 15px; }
 
 .body_container {
   padding: 0 60px;
@@ -168,7 +168,7 @@ div {
     font-weight: 300;
     color: #555;
     text-align: left;
-    font: bold 25px/1.1 "source-han-serif-sc", serif,"ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif; }
+    font: bold 28px/1.1 "source-han-serif-sc", serif,"ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif; }
     .post .post-title a {
       color: #555; }
   .post .post-meta {
@@ -218,7 +218,7 @@ div {
       color: #444; }
   .post .post-content {
     clear: left;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.77;
     color: #444;
     padding-top: 15px;
