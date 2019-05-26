@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kashuukiyoko.github.io/"/>
-  <updated>2019-05-22T14:30:12.034Z</updated>
+  <updated>2019-05-26T05:52:37.570Z</updated>
   <id>https://kashuukiyoko.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周报 | 2019.5.19-5.26</title>
+    <link href="https://kashuukiyoko.github.io/posts/f1d03e52/"/>
+    <id>https://kashuukiyoko.github.io/posts/f1d03e52/</id>
+    <published>2019-05-25T16:00:00.000Z</published>
+    <updated>2019-05-26T05:52:37.570Z</updated>
+    
+    <content type="html"><![CDATA[<hr><h2><span id="读了什么"><strong>| 读了什么 |</strong></span></h2><p>《闪闪发光的人生》，小川《山茶文具店》的续作，适合午后茶时间随手翻一翻的小说，很日本的味增汤味道<br>——而我因为生活中已经太久没有出现这种会热爱丈夫已逝前妻的岁月静好姑娘甚至看得有一些些张口结舌</p><p>《印象笔记留给你的空间》，也好久没有读方法论的书了，事实证明大部分方法论的书确实都是一滩…… 怎么说呢，我看个 @studyaccount 小组 转发的长微博就能解决的事，为什么要看这么长的一本书……</p><h2><span id="看了什么"><strong>| 看了什么 |</strong></span></h2><p>《大侦探皮卡丘》</p><p>皮卡皮卡！！！！！！！！！！！！！！！！！！！！！！！！！！</p><p>然后开始看生活大爆炸打发时间，一集二十分钟可太合心意了<br>难以想象我今年才开始看第一季……</p><h2><span id="运动了吗"><strong>| 运动了吗 |</strong></span></h2><p>又开始重新跑了一周的步，我已经可以挑战 2km+1.5km 了<br>然后周末下雨我又停了 T T</p><h2><span id="买了什么"><strong>| 买了什么 |</strong></span></h2><p>试图买了个故事本尝试时髦拼贴<br>结论：算了吧……</p><h2><span id="在玩什么"><strong>| 在玩什么 |</strong></span></h2><p>打明日方舟！！就在今天早上三点我解决了龙门外环 400 杀，感觉自己毕业了…………</p><h2><span id="杂七杂八"><strong>| 杂七杂八 |</strong></span></h2><p>印象笔记好好用啊……<br>我又重新开始学日语了通过印象笔记我找到了电子笔记的快乐…………</p><hr>]]></content>
+    
+    <summary type="html">
+    
+      「我已经开始不想坚持了！」
+    
+    </summary>
+    
+      <category term="醒时节披衣坐" scheme="https://kashuukiyoko.github.io/categories/%E9%86%92%E6%97%B6%E8%8A%82%E6%8A%AB%E8%A1%A3%E5%9D%90/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>书摘 | 寄居者</title>
@@ -388,26 +408,6 @@
     <summary type="html">
     
       「其实是一个妥协方案，但是毕竟我拯救不了世界」
-    
-    </summary>
-    
-      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>题红 | 修改 Maupassant 主题字体为思源宋体</title>
-    <link href="https://kashuukiyoko.github.io/posts/ba0a4218/"/>
-    <id>https://kashuukiyoko.github.io/posts/ba0a4218/</id>
-    <published>2019-01-16T10:38:00.000Z</published>
-    <updated>2019-01-28T14:50:48.579Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>起因：思源宋体真的很好看<br>需求：将 blog 的标题与正文修改为思源宋体<br>tips：每一步的目的都是猜的，用词对不对我也不知道，大概理会中心思想就好么么哒</p><p>步骤：</p><h3><span id="在-adobe-typekit-网站上注册账号并且打包字体">在 Adobe Typekit 网站上注册账号，并且打包字体</span></h3><p>网址为：<a href="https://fonts.adobe.com/" target="_blank" rel="noopener">Adobe Typekit</a><br>这一步可以让没有安装思源宋体的电脑也能够使用这个字体<del>（就是 loading 速度有点慢）</del></p><ol><li>右上角注册 Adobe 账号，地区选择 <code>United states</code></li><li>登陆后，搜索栏搜索 <code>Source Han Serif Simplified Chinese</code> </li><li>点击 &lt;/&gt; 按钮，在 <code>Enter a new project name</code> 处随便输入一个名字，点击 <code>Show 5 more</code> ，选择你需要的字重（建议是 light，Medium 和 bold 这三个。）</li><li><p>点击 <code>create</code> 按钮，右上角复制按钮把显示的代码复制下来，备用</p><p>如：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">  (function(d) &#123;</span><br><span class="line">    var config = &#123;</span><br><span class="line">      kitId: &apos;paj7pia&apos;,</span><br><span class="line">      scriptTimeout: 3000,</span><br><span class="line">      async: true</span><br><span class="line">    &#125;,</span><br><span class="line">    h=d.documentElement,t=setTimeout(function()&#123;h.className=h.className.replace(/\bwf-loading\b/g,&quot;&quot;)+&quot; wf-inactive&quot;;&#125;,config.scriptTimeout),tk=d.createElement(&quot;script&quot;),f=false,s=d.getElementsByTagName(&quot;script&quot;)[0],a;h.className+=&quot; wf-loading&quot;;tk.src=&apos;https://use.typekit.net/&apos;+config.kitId+&apos;.js&apos;;tk.async=true;tk.onload=tk.onreadystatechange=function()&#123;a=this.readyState;if(f||a&amp;&amp;a!=&quot;complete&quot;&amp;&amp;a!=&quot;loaded&quot;)return;f=true;clearTimeout(t);try&#123;Typekit.load(config)&#125;catch(e)&#123;&#125;&#125;;s.parentNode.insertBefore(tk,s)</span><br><span class="line">  &#125;)(document);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure></li></ol><p>到这一步就打包好了，接下来改动 hexo 本地文件夹中的配置文件，使这个代码在 blog 配置文件中生效，也就是让 blog 能够顺利调用<a href="https://fonts.adobe.com/" target="_blank" rel="noopener">Adobe Typekit</a> 网站上你选好的字体。</p><h3><span id="修改-after_footerpug-文件">修改 after_footer.pug 文件</span></h3><p>这个文件具体干嘛的我也不是很清楚，反正走完这一步 blog 就能用思源宋体了</p><ol><li>文件位置在你的 hexo 文件夹 <code>\themes\maupassant\layout\_partial</code> 的位置</li><li>打开它，拉到最下面，粘贴你刚刚复制的代码</li><li>修改最上面的 <code>&lt;script&gt;</code> 为 <code>script.</code> ，删除最下面的 <code>&lt;script&gt;</code> ，注意缩进关系<br> 这一步改完以后效果应当是这样的：</li></ol><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">script(type=&apos;text/javascript&apos;, src=url_for(theme.js) + &apos;/codeblock-resizer.js&apos; + &apos;?v=&apos; + theme.version)</span><br><span class="line">script(type=&apos;text/javascript&apos;, src=url_for(theme.js) + &apos;/smartresize.js&apos; + &apos;?v=&apos; + theme.version)</span><br><span class="line">script.</span><br><span class="line">  (function(d) &#123;</span><br><span class="line">    var config = &#123;</span><br><span class="line">      kitId: &apos;wsr0swh&apos;,</span><br><span class="line">      scriptTimeout: 3000,</span><br><span class="line">      async: true</span><br><span class="line">    &#125;,</span><br><span class="line">    h=d.documentElement,t=setTimeout(function()&#123;h.className=h.className.replace(/\bwf-loading\b/g,&quot;&quot;)+&quot; wf-inactive&quot;;&#125;,config.scriptTimeout),tk=d.createElement(&quot;script&quot;),f=false,s=d.getElementsByTagName(&quot;script&quot;)[0],a;h.className+=&quot; wf-loading&quot;;tk.src=&apos;https://use.typekit.net/&apos;+config.kitId+&apos;.js&apos;;tk.async=true;tk.onload=tk.onreadystatechange=function()&#123;a=this.readyState;if(f||a&amp;&amp;a!=&quot;complete&quot;&amp;&amp;a!=&quot;loaded&quot;)return;f=true;clearTimeout(t);try&#123;Typekit.load(config)&#125;catch(e)&#123;&#125;&#125;;s.parentNode.insertBefore(tk,s)</span><br><span class="line">  &#125;)(document);</span><br></pre></td></tr></table></figure><h3><span id="修改-css-配置">修改 CSS 配置</span></h3><p>这一步的目的是让引用的字体文件能应用到 blog 样式里，修改的 <code>font-family:</code> 行按顺序读取字体名称进行显示，所以把字体名称加进去的时候要加在最前面</p><ol><li>搜索 <code>pure-g</code>，找到 <code>font-family:</code> 行，在最前面加入 <code>&quot;source-han-serif-sc&quot;, serif,</code> </li><li>搜索 <code>body</code> ，找到 <code>font-family:</code> 行，在最前面加入 <code>&quot;source-han-serif-sc&quot;, serif,</code><br>这一步做完了理论上就完成了，对 blog 进行部署即可</li></ol><h3><span id="我另外做了几件事">我另外做了几件事</span></h3><ol><li><p>搜索了其他的 <code>font-family:</code> 段，在其他 <code>font-family:</code> 段里加入了字体名称，试图修改掉 page 名的字体，结论失败，这个好像不能在 CSS 文件中进行修改（旋岚：好像这个东西和图标是一套的 ，我们自己能改的是 style.css，它来源于 font-awsome.min.css ）</p></li><li><p>修改 blog 的字体大小，字体控制分别是以下这几段代码</p><p>全局：搜索 <code>body</code> ，修改 <code>font-size: 15px</code>，px 就是字体大小<br>标题：搜索 <code>post</code>，修改 <code>font: 700 25px/1.1</code>，<br>正文：搜索 <code>post-content</code>，修改 <code>font-size: 15px</code>，</p></li></ol><h3><span id="最终思路回顾">最终思路回顾</span></h3><p>在 Adobe Typekit 网站中调用需要的字体→将字体引用代码扔进 blog 本地文件供 blog 使用→修改 CSS 样式文件让 blog 优先显示你选择的字体</p><h3><span id="顺便">顺便</span></h3><p>改完了以后我用来替代”阅读全文“的小云朵可爱了十八倍！从端庄的淑女云变成了香香软软的面包云！</p><h3><span id="鸣谢">鸣谢</span></h3><p>大力感谢旋岚的手把手教程，太麻烦你啦谢谢你教我！！！</p>]]></content>
-    
-    <summary type="html">
-    
-      「大力感谢旋岚的手把手教程，太麻烦你啦谢谢你教我！！！」
     
     </summary>
     
