@@ -31,13 +31,13 @@
 <li>如何对整篇课文实现切割？——目前的做法：每个单句做一张卡片，一段对话结束后再做一张对话卡片，太长的对话切割成四五句一张卡片，保证每张卡片的信息量都不太大，语音单句单句插入，方便随时跳进度。 </li>
 <li>最终人在每一张卡片上做的事情：先看译文回忆原文，点开反面听语音跟读，强化语法记忆。</li>
 </ol>
-<p><img src="4.PNG" alt="最终卡片效果："></p>
+<p><img src="https://i.loli.net/2019/07/02/5d1b75a0289b869255.png" alt="最终卡片效果："></p>
 <p>啊差不多就写到这儿，回头还有什么比较细节的地方想起来再来补……</p>
 <hr>
 <h3><span id="anki-模板存档"><strong>Anki 模板存档 </strong></span></h3><p>（特别长可以不用看我为了防止之后折腾废了还能重建回来）<br>最后存一下我改完以后的 kindle 风格模板，这个模板网上到处都能下到，我很喜欢，用废柴的 Html 技术改了一下，比较符合我的审美。</p>
-<p><img src="/1_副本. png" alt="改完以后长这样↓左边电脑版右边手机版"></p>
-<p><img src="2.png" alt="格式部分这样"></p>
-<p><img src="3.png" alt="最后录入的时候长这样"></p>
+<p><img src="https://i.loli.net/2019/07/02/5d1b759fb76bb80959.png" alt="改完以后长这样↓左边电脑版右边手机版"></p>
+<p><img src="https://i.loli.net/2019/07/02/5d1b759fd0db925332.png" alt="格式部分这样"></p>
+<p><img src="https://i.loli.net/2019/07/02/5d1b759fe056a10604.png" alt="最后录入的时候长这样"></p>
 <p>改完以后的代码这样（只改了一小部分而且我不记得改了哪些了）</p>
 <p><strong> 正面模板 </strong></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 页眉区块 --&gt;</span><br><span class="line">&lt;div class=&quot;head1&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;div class=&quot;head2&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;div class=&quot;head3&quot;&gt;&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- 正面区块 --&gt;</span><br><span class="line">&lt;div class=&quot;section&quot;&gt;</span><br><span class="line">&lt;div class=&quot;title&quot;&gt; 正面 & lt;/div&gt;</span><br><span class="line">&lt;div id=&quot;front&quot; class=&quot;items&quot;&gt;&#123;&#123; 正面 &#125;&#125;&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- 本行为注释，如需使用额外字段，请删除本行与后面的注释行 </span><br><span class="line">&lt;hr&gt;&lt;div id=&quot;front-extra1&quot; class=&quot;items&quot;&gt; 正面额外字段(如: 音标)&lt;/div&gt;</span><br><span class="line"> 本行为注释，如需使用额外字段，请删除本行与上面的注释行 --&gt;</span><br><span class="line"></span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
