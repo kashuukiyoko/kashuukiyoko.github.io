@@ -5,14 +5,14 @@
     async: true
   },
   h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-})(document);</script><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Anki | 制作 Anki 日语学习卡</h1><a id="logo" href="/.">懒云休憩室</a><p class="description">醒时诗酒醉时歌，瑶琴不理抛书卧</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 真的要看吗</i></a><a href="/archives/"><i class="fa fa-archive"> 就是个目录</i></a><a href="/books/"><i class="fa fa-book"> 倒腾旧书柜</i></a><a href="/movies"><i class="fa fa-video-camera"> 溜进电影院</i></a><a href="/atom.xml"><i class="fa fa-rss"> RSS</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Anki | 制作 Anki 日语学习卡</h1><div class="post-meta">Jul 3, 2019<span> | </span><span class="category"><a href="/categories/飞来就我题红/">飞来就我题红</a></span><span class="post-time"><span class="post-meta-item-text"> | </span><span class="post-meta-item-icon"><i class="fa fa-keyboard-o"></i><span class="post-count"> 2.7k</span><span class="post-meta-item-text"> 字</span></span></span></div><div class="post-content"><hr>
+})(document);</script><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Anki | 制作 Anki 日语学习卡</h1><a id="logo" href="/.">懒云休憩室</a><p class="description">醒时诗酒醉时歌，瑶琴不理抛书卧</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 真的要看吗</i></a><a href="/archives/"><i class="fa fa-archive"> 就是个目录</i></a><a href="/books/"><i class="fa fa-book"> 倒腾旧书柜</i></a><a href="/movies"><i class="fa fa-video-camera"> 溜进电影院</i></a><a href="/atom.xml"><i class="fa fa-rss"> RSS</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Anki | 制作 Anki 日语学习卡</h1><div class="post-meta">Jul 3, 2019<span> | </span><span class="category"><a href="/categories/飞来就我题红/">飞来就我题红</a></span><span class="post-time"><span class="post-meta-item-text"> | </span><span class="post-meta-item-icon"><i class="fa fa-keyboard-o"></i><span class="post-count"> 2.6k</span><span class="post-meta-item-text"> 字</span></span></span></div><div class="post-content"><hr>
 <p>我这种人，一开始学习，就忍不住开始工欲善其事必先利其器。<br>最后菜刀倒是磨快了，但兴头也耗掉了，独孤求败得懒得再用它砍东西。<br>这大概就是现代的月夜访韩信……（不是</p>
-<p>反正记一下最近用 Anki 做的事儿。<br>目的：市面上所有日文相关背诵 APP 都太难用了，所以重新用回 Anki ，这次是制作日语课文发音卡，TTS 发音太难听了，需求真人配音<br>解决步骤：参考 ankitube 的油管视频卡片制作流程——除了他们家的收费服务一定也有人做相关的自动化工作流——大量谷歌后成功找到根据字幕文件自动裁剪音频文件的软件——修改我很喜欢的 kindle 风格 Anki 模板卡片——思考怎么放置对话卡片——解决</p>
+<p>反正记一下最近用 Anki 做的事儿。<br>目的：市面上所有日文相关背诵 APP 都难用，所以重新用回 Anki 制作日语课文发音卡，TTS 发音不好听，也因此同时需求真人配音<br>解决步骤：参考 ankitube 的油管视频卡片制作流程——除了他们家的收费服务一定也有人做相关的自动化工作流——大量谷歌后成功找到根据字幕文件自动裁剪音频文件的软件——修改我很喜欢的 kindle 风格 Anki 模板卡片——思考怎么放置对话卡片——解决</p>
 <hr>
 <h3><span id="step-1-课文文本和音频"><strong>step 1 课文文本和音频 </strong></span></h3><p>先找到合适的课文文本，这方面通过 readfree 解决，有一个朋友发了很好的精简版 <a href="https://readfree.me/edition/32806/" target="_blank" rel="noopener">mobi 格式文档</a>，通过 calibre 打开以后可以直接复制里面的内容</p>
 <p>再找合适的音频文件，这里我没有用标日课文的音频，用了<a href="https://pan.baidu.com/s/1OcoVFZdUeikYDEerF0kTOA" target="_blank" rel="noopener">叶子老师的标日课文朗读，提取码 9lis</a>。<br>我感觉她的朗读要比标日的官方音频要好，每一句读之前会读中文释义，读基本课文前四句时还会慢快各读一遍，跟读很方便。</p>
 <hr>
-<h3><span id="step-2-制作音频字幕文件"><strong>step 2  制作音频字幕文件 </strong></span></h3><p>我找到的软件可以根据字幕文件的时间轴来实现自动剪裁音频的功能，所以第二步是给音频打轴。<br>打轴我必须要说 <a href="https://arctime.org/" target="_blank" rel="noopener">ARCTIME</a> 真是太好用了，用来浑身一轻。这个软件可以做到可视波形打轴，随意拖拽字幕时间块，自动双语，官方文档还有详细的视频教程，简直是科技拯救人类的绝佳范本！！（按下对此前用了五六年的一个打轴软件的三万字吐槽）</p>
+<h3><span id="step-2-制作音频字幕文件"><strong>step 2  制作音频字幕文件 </strong></span></h3><p>我找到的软件可以根据字幕文件的时间轴来实现自动剪裁音频的功能，所以第二步是给音频打轴。<br>打轴我必须要说 <a href="https://arctime.org/" target="_blank" rel="noopener">ARCTIME</a> 真是太好用了。这个软件可以做到可视波形打轴，随意拖拽字幕时间块，自动双语 AB 字幕轨，并且官方文档有详细的视频教程，简直是科技拯救人类的绝佳范本！！（按下对此前用了五六年的一个打轴软件的三万字吐槽）</p>
 <p>这里我自己对字幕做的一点改进是：</p>
 <ol>
 <li>只对日文朗读部分打轴，这样卡片发音的时候比较不浪费时间。 </li>
@@ -20,21 +20,21 @@
 </ol>
 <hr>
 <h3><span id="step-3-自动切割音频"><strong>step 3  自动切割音频 </strong></span></h3><p>这里用了 <a href="https://www.jianshu.com/p/2cfc15963722" target="_blank" rel="noopener">anki 辅助工具 subs2srs</a> 来实现课文单句音频的切割，这位简书大佬功德无量普救众生，我搜到的时候差点掉眼泪。</p>
-<p>这位大佬的听力卡制作教程写得非常详细了，就不重复来讲。不过我要实现的功能实际上和他不一样（而且我跟着教程也在导入 tsv 部分 失败了），因此只运用到了音频切割功能，切完了以后还是要手工制卡。</p>
+<p>网址里的教程写得非常详细，就不重复来讲。不过我要实现的功能实际上和他不一样（而且我跟着教程也在导入 tsv 部分 失败了），因此切完音频以后还是要手工制卡。</p>
 <p>不过好在最麻烦的部分已经被解决了（试了 AA 裁语音，差点没被烦死），剩下的也就是一篇课文二十句左右而已，边学边做并不需要多少时间。</p>
 <hr>
 <h3><span id="step-4-anki-制卡"><strong>step 4  Anki 制卡 </strong></span></h3><p>这里用了网上广为流传的 kindle 风格模板。</p>
 <p>先讲思路：</p>
 <ol>
 <li>比起形式，内容更重要，因此不需要折腾太多的字段和格式，只需要最简单的背记卡功能——正面问题，背面回答，点开回答的时候卡片发音，并且可以按照章节课号来分类，单独抽出来或者合并</li>
-<li>怎么实现比较好的课文背记卡？——我想到的是：正面显示汉语意思加强印象（很奇怪，学日语我根本记不得译文，也不知道好事还是坏事），反面显示课文原文和涉及到的相关文法，原文文法的部分加粗显示，利用章节和 tag 字段实现<a href="https://zhuanlan.zhihu.com/p/48318470" target="_blank" rel="noopener">检索</a>。</li>
+<li>怎么实现比较好的课文背记卡？——我想到的是：正面显示汉语意思加强印象（很奇怪，学日语我根本不记得译文，也不知道好事还是坏事），反面显示课文原文和涉及到的相关文法，原文文法的部分加粗显示，利用章节和 tag 字段实现<a href="https://zhuanlan.zhihu.com/p/48318470" target="_blank" rel="noopener">检索</a>。</li>
 <li>如何对整篇课文实现切割？——目前的做法：每个单句做一张卡片，一段对话结束后再做一张对话卡片，太长的对话切割成四五句一张卡片，保证每张卡片的信息量都不太大，语音单句单句插入，方便随时跳进度。 </li>
 <li>最终人在每一张卡片上做的事情：先看译文回忆原文，点开反面听语音跟读，强化语法记忆。</li>
 </ol>
 <hr>
 <p><center><strong> 最终卡片效果↓</strong></center><br><img src="https://res.cloudinary.com/kashuu/image/upload/v1562081695/4.png" alt="最终卡片效果"></p>
 <hr>
-<h3><span id="anki-模板存档"><strong>Anki 模板存档 </strong></span></h3><p>（特别长可以不用看我为了防止之后折腾废了还能重建回来）<br>最后存一下我改完以后的 kindle 风格模板，这个模板网上到处都能下到，我很喜欢，用废柴的 Html 技术改了一下，比较符合我的审美。</p>
+<h3><span id="anki-模板存档"><strong>Anki 模板存档 </strong></span></h3><p>（特别长可以不用看只是存档）<br>最后存一下我改完以后的 kindle 风格模板，这个模板网上到处都能下到，我很喜欢，用废柴的 Html 技术改了一下，比较符合我的审美。</p>
 <p><center><strong> 格式部分这样↓</strong></center><br><img src="https://res.cloudinary.com/kashuu/image/upload/v1562081688/2.png" alt="格式部分这样"></p>
 <hr>
 <p><strong> 正面模板 </strong></p>
