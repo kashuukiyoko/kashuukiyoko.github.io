@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kashuukiyoko.github.io/"/>
-  <updated>2020-05-21T12:36:46.631Z</updated>
+  <updated>2020-05-21T14:22:06.677Z</updated>
   <id>https://kashuukiyoko.github.io/</id>
   
   <author>
@@ -17,22 +17,201 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title> 三月 | 随便写一写</title>
-    <link href="https://kashuukiyoko.github.io/posts/fca2668c/"/>
-    <id>https://kashuukiyoko.github.io/posts/fca2668c/</id>
-    <published>2020-05-21T12:36:44.000Z</published>
-    <updated>2020-05-21T12:36:46.631Z</updated>
+    <title>五月 | 安装 Hexo-admin 以及从 wordpress 快速搬运</title>
+    <link href="https://kashuukiyoko.github.io/posts/fa33b8a/"/>
+    <id>https://kashuukiyoko.github.io/posts/fa33b8a/</id>
+    <published>2020-05-21T14:16:36.000Z</published>
+    <updated>2020-05-21T14:22:06.677Z</updated>
     
-    <content type="html"><![CDATA[<p>三月生日月。<br>每次过生日都觉得很害怕，落在身后的日子臃肿痴肥，在界限上回望的时候便觉得羞愧。<br>说 “那年我去洛阳的时候” 而不是“大二那年我去洛阳玩”<br>说 “我去济南的时候” 而不是“大四那年我去过济南”<br>年与年的分界模糊起来，其实也分不清到底是不是大二去的洛阳，大四去的济南。那年和朋友开玩笑，说十五六岁的时候很热衷于介绍自己，从哪里来，到哪里去，那时候很简单，大家都差不多，一望见底。但二十五岁变得很害怕这件事。<br>觉得过去望不到头，未来也望不到头。去处去，来处来。</p><p>大家都很喧嚣。<br>不是新鲜事，讨论的话题太多就想逃开，喜欢的东西也这样，不喜欢的也这样，喜欢的东西是任天堂，不喜欢的事情是新冠肺炎。<br>新冠肺炎讨论度超过两个月这件事很可怕的，但是想一想战争，爱，歧视，和平，这些词也讨论了好几千年了。大家居然还没有厌倦。<br>说明只是我被搅扰得很喧嚣。不能怪到别人。</p><p>19 号晚上用抢口罩的气势反复按 A 键打开动森，服务器晚了几分钟，十几秒后群里就开始惊慌地互相问消息，过了几天整个世界好似用开水浇蚁窝，密密麻麻地爬满了相似的关键字。<br>动森真的是很奇妙的游戏，以前看访谈陈星汉，陈星汉做《光 · 遇》，说他们“不能让任何玩家觉得这个游戏在数值上如果‘给予’的话会更赚”。我有两个动森的群，聊天内容都一样，每晚串门分享水果和家具，好像也达到了陈星汉说的“我们花了很大的心思去让玩家在默认中会喜欢另外一个玩家”。<br>动森的好处在于尽管时间与现实同步却不辨日月，现实中不是这样的。现实里再也不能用一整个下午在户外抓蝴蝶，没有一整个下午，当然也没有蝴蝶。<br>和学建筑的朋友聊小岛规划，她谈到了日照阴影和河道水势，脑子发麻。真要是活的小岛就好了，让树自己长和挪，人类和动物在它们之间找地方。</p><p>不过当打开 NGA 的时候动森和其他游戏就没有什么区别了，NGA 老哥总是很人间烟火，把副本事谈成家常事，也总把任何游戏都打成速通。<br>还挺可爱。</p><p>周一的时候看到小区的检测棚子撤了，公园的绿地上飘龙形风筝。周五去联建小区，有风有雨，检测棚也没人，在他们办公室熬了个上午。没下雨的那几天有很漂亮的绿绣球，同事往前走，我抓紧时间拍。再往上数在联建小区碰到很漂亮的一个姐姐，宝宝七个月，活泼健谈，十分钟说了两句“女孩子不用……”。<br>生命力和腐气很协调地并存了。</p><p>如果不是新冠肺炎，此时应该在上海和很喜欢的朋友住在一起，手拉手去看交响音乐会。<br>总是在这种节点很强烈地意识到失去了什么，本应该拥有什么。<br>结果是在生日前夕和同事们去吃火锅，晚上把林奕含的 facebook 拿出来读，又读到她写“像七夕的鹊桥，像走在无数个吻之上”，这句话轻盈得好像躯壳和无限烦恼都一并消弭了。</p><p>买了新的粉红色菱格小包，放充电宝，放数据线，放纸巾，kindle 和手机，weeks 挤挤挨挨地从包口探半个头出来，觉得快乐。</p><p>学会 shift 和 enter 一起按的话可以只分段不空行。</p>]]></content>
+    <content type="html"><![CDATA[<hr><p>装完 <a href="https://www.bilibili.com/video/BV1jf4y1m7LK#reply2862116366" target="_blank" rel="noopener">Artitalk</a> 以后开始研究怎么能更舒服地更新 Hexo，长期以来更新 Hexo 都非常麻烦，需要新建 MD 文档，填非常麻烦的 front-matter ，这中间因为我的 abbrlink 短链接插件会自动生成唯一链接，如果直接复制旧文档，新文档更新后会一直显示旧文档的内容，所以还不能直接从旧文档复制过来，要全部写好以后再复制粘贴文件到_post 文件夹，搞定这一大堆东西以后再一点点调 markdown 的格式，总要调好几遍才能满意，最后 hexo deploy -g。</p><p>开始用 Wordpress 以后，Wordpress 带链接和图片真的太方便了！剧烈惨叫，于是本着 “我一定不是这个互联网上最懒的菜鸡” 的心态找了找，果然有前人做了 Hexo 可视化后端。<br>懒惰是人类第一生产力。</p><p>参考安装链接：<a href="https://ed521.github.io/2019/08/hexo-admin/" target="_blank" rel="noopener">[教學 ] 我的第一篇 Hexo 文章：使用 hexo-admin 後台管理工具</a></p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-admin --save</span><br></pre></td></tr></table></figure><p>出现了一大堆——<strong>warning</strong>——以后——整个 Hexo 就是一股子无事发生的气息。<br>open <a href="http://localhost:4000/admin" target="_blank" rel="noopener">http://localhost:4000/admin</a> 也无事发生。<br>并且这个时候无论我输入什么命令，都有两行长这样的 warning 如影随形地跟着我。</p><pre><code>(node:6716) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.(node:6716) ExperimentalWarning: The fs.promises API is experimental</code></pre><p>查了一下大概是因为 admin 调用了过老的废弃 API 但是因为它废弃了所以开始报错……<br>只好自暴自弃地睡觉去了。</p><p>第二天给 <a href="https://www.bilibili.com/video/BV1jf4y1m7LK#reply2862116366" target="_blank" rel="noopener">Artitalk</a> 缝缝补补的时候不死心又装了一遍，hexo s 再 open <a href="http://localhost:4000/admin。" target="_blank" rel="noopener">http://localhost:4000/admin。</a><br>它它它它，它出现了！！！<br>你们程序员的世界可真的太迷惑了……………… 我猜可能是因为我 Google 出来的那一堆更新命令的某一个发挥了作用？但它们安装的时候也都是报错和无法安装啊………………</p><p>总之我得到了一个好用的后端。</p><hr><p><strong>Hexo-admin 研究结果：</strong>Hexo-admin 不能解决我的 front-matter 问题，还是需要挨个复制粘贴，但是有个好处是它会自动在_post 里上生成带 abbrlink 唯一链接的 post，所以复制粘贴这件事情也变得可以接受了起来。</p><p>那么接下来要解决的就是怎么把带有图片和链接以及各种格式的 Wordpress 博文转换成 Hexo 能用的 markdown 格式。</p><p>一开始的思路是通过 Wordpress 自带导出的 xml 文件进行转换，轮子是真的有人造过，还不止一个，但我看了看那个 “据说很简单” 的教程以后就意识到它一定会在我手上生成更多我不能解决的 BUG，于是干脆利落地放弃了。<br>另一个思路是通过 Wordpress 生成的代码编辑器模式，把带代码的文章转换成 markdown 文件，理所当然地它也失败了。<br>最后我想着算了自己重新做吧，拖出了很久不用的 Typora，把文章直接复制了上去…… 发现 Typora 上显示的复制粘贴后文章是带格式链接甚至图片的，直接调成源代码模式然后复制粘贴到 Hexo-admin 里就可以了。</p><p>。。。<br>。。。<br>。。。</p><p><strong> 我再也不嫌弃 Typora 行间距太大不美观了。</strong></p><hr><p><strong> 备份两个 Wordpress 搬迁的轮子 </strong><br><a href="https://cloud.tencent.com/developer/article/1385386" target="_blank" rel="noopener">在 WordPress 5.x 中把 HTML 转换成 Markdown 编写文件</a><br><a href="http://gsgundam.com/2015-01-30-export-posts-from-wordpress/" target="_blank" rel="noopener">从 Wordpress 导出文章并转换成 Markdown 格式</a></p><hr><p><strong> 另外的更新 </strong>：给 Hexo 站换了个新的可爱 ios-icon，然后把碎碎念页面发送到了手机桌面上，现在我有一个碎碎念 APP 啦！</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;三月生日月。&lt;br&gt;每次过生日都觉得很害怕，落在身后的日子臃肿痴肥，在界限上回望的时候便觉得羞愧。&lt;br&gt;说 “那年我去洛阳的时候” 而不是“大二那年我去洛阳玩”&lt;br&gt;说 “我去济南的时候” 而不是“大四那年我去过济南”&lt;br&gt;年与年的分界模糊起来，其实也分不清到底是不是
-      
+      「——救命啊你们代码界（能这么称呼吗）都是拿warning下饭的吗？」
     
     </summary>
+    
+      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>五月 | 在 HEXO 中添加类微博页面</title>
+    <link href="https://kashuukiyoko.github.io/posts/62485d62/"/>
+    <id>https://kashuukiyoko.github.io/posts/62485d62/</id>
+    <published>2020-05-20T13:35:52.000Z</published>
+    <updated>2020-05-21T14:22:28.005Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>昨天羡慕别人 Tyoecho 的说说页面，晚上捣鼓了半天给我的 HEXO 站也加了一个，感谢开发者为此做出的辛勤工作，给个站加功能好好玩哦</p><p>最终界面长这样：</p><p><img src="https://files.cmx-im.party/media_attachments/files/000/469/040/original/ea42079531f3742d.png" alt="消息框底色为 #ededed，经过艰难四选一后还是认为这个最好看">消息框底色为 #ededed，头像用的是小博美吃播截图 wwww</p><p>参考教程：<a href="https://cndrew.cn/2020/05/11/artitalk/" target="_blank" rel="noopener">Hexo 添加可实时发布的说说界面 | Artitalk.js</a><br>以及另一个参考视频：<a href="https://www.bilibili.com/video/BV1jf4y1m7LK#reply2862116366" target="_blank" rel="noopener">Artitalk 更新说明以及教程（原 hexo-shuoshuo</a></p><p>设置流程和教程基本差不多，就不复述了。确实很简单，我花时间最多的地方在于询问开发者怎么解决 bug，以及麻烦他更新颜色配置后艰难四选一，研究配什么底色显得最和谐。<br>讲一下遇到的这个 bug：设置完成后，打开新增页面，会无限显示 loading 动画，F12 报错为：</p><p><img src="https://kashuukiyoko.files.wordpress.com/2020/05/image-2.png?w=554" alt="img"></p><p>解决办法为修改 index.md，加入  和。</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% raw %&#125;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">...</span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure><p>更新后这个页面可以实现在线实时发布，移动端通过网页浏览器也可以实现移动发布，可以带图（但是图片尺寸适配比较一般），通过 leancloud 可以实现内容的编辑和删除。leancloud 支持通过邮件方式，于每日中午 12 点前进行数据导出，导出数据格式为 json，网上有挺多 json 在线解析工具，简单粗暴地改了一个 TXT 后缀，打开显示为：</p><p><img src="https://kashuukiyoko.files.wordpress.com/2020/05/image-3.png?w=569" alt="img"></p><p>基本满足便捷发布和数据本地备份这两个需求。</p><p>最后备份几个 json 实用网站：<br><a href="https://www.sojson.com/" target="_blank" rel="noopener">json 在线解析</a><br><a href="http://www.dreamwu.com/tools/json/#" target="_blank" rel="noopener">json 在线转换、解析和格式化</a><br><a href="https://www.sojson.com/jsAndhtml.html" target="_blank" rel="noopener">json 在线转为 html</a><br><a href="https://www.bejson.com/convert/html2markdown/" target="_blank" rel="noopener">html/markdown 互转工具</a></p><hr><p>更新一个图片解决方案</p><p>试验使用过程中发现如果博文带图，缩略图会默认居中而且过小，在 leancloud 上直接修改图片宽度，又会导致鼠标移动到图片自动放大后，被放大的图片占满一整个网页。<br>问了下开发者，说图片放大是一个 css 转换 markdown 的时候加上的，以我的水平我是不知道怎么关掉它。但是可以通过 html 直接引用图片来绕过它。（就是麻烦了一点 T T）</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;p&gt; 打卡 2019/5/19 扇贝 82 天 背完考研真题核心词汇书 & lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;p&gt; 洗了奥尔什方，美名其曰 520 给自己一个男朋友，实际上根本找不到衣服可以穿。&lt;img src=&quot;</span><br><span class="line">https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-img/06/28/0628ecbfadfdf6bd82926565414d8bda4b996657.png&quot; /&gt;&lt;/p&gt;</span><br></pre></td></tr></table></figure><p>效果为：</p><p><img src="https://kashuukiyoko.files.wordpress.com/2020/05/image-6.png?w=1024" alt="img"></p>]]></content>
+    
+    <summary type="html">
+    
+      「blog靠短微博功能重新让我热情了起来，这本身就有点怪怪的……」
+    
+    </summary>
+    
+      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>BUG | HEXO 升级可能性研究中心</title>
+    <link href="https://kashuukiyoko.github.io/posts/592dfb79/"/>
+    <id>https://kashuukiyoko.github.io/posts/592dfb79/</id>
+    <published>2020-05-19T13:33:33.000Z</published>
+    <updated>2020-05-21T13:34:52.903Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p><a href="https://github.com/xbotao/hexo-admin-qiniu" target="_blank" rel="noopener">hexo-admin 插件</a><br>效果是达成 hexo 的文章管理和一键部署，贴在这里的链接是国人做的 v2.0 版本，可以实现图片上传，比较担心 blog 不能用 hexo -d 命令的情况下能不能用。</p><p><a href="https://cndrew.cn/2020/05/11/artitalk/" target="_blank" rel="noopener">Hexo 添加可实时发布的说说界面</a><br>看发布时间，竟然是昨天发布的…… 这个 blog 真的好漂亮，流下羡慕的泪水。<br>看描述比较简单，但说说内容在 valine 上，不能保存到本地，以及基于 hexo 的本质来讲，我猜只能在部署了 hexo 的电脑上用<br>如果能移动端发布就好了，让我研究一下</p>]]></content>
+    
+    <summary type="html">
+    
+      「先放一点链接在这里回头慢慢研究。」
+    
+    </summary>
+    
+      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>BUG | 午休 Typecho 破案故事和相关链接</title>
+    <link href="https://kashuukiyoko.github.io/posts/d71bf5ca/"/>
+    <id>https://kashuukiyoko.github.io/posts/d71bf5ca/</id>
+    <published>2020-05-19T13:29:11.000Z</published>
+    <updated>2020-05-21T13:34:39.104Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>起源是在 bilibili 看 PR 的入门教程，看到一个简洁好懂还附带下载包和字体包的《<a href="https://www.bilibili.com/video/BV1h7411U7BX/?spm_id_from=333.788.videocard.1" target="_blank" rel="noopener">10 分钟快速上手 premiere 剪辑！仅含 1 句废话，全程干货输出</a>》，在简介找 UP 附带的教程的时候点进链接，发现这个链接竟然是 UP 自己的 blog。</p><p>在 blog 里四处转悠的时候发现这个 blog 有一个我相当喜欢的功能，类似独立的新浪微博。</p><p><img src="https://kashuukiyoko.files.wordpress.com/2020/05/image-1.png?w=809" alt="img"></p><p>工具主义者如我立刻想要尝试，开始破案。</p><p>首先可以看到登录页面，不是纯粹的自建站；右下角有备案，服务器应该在国内；不是静态网页，那么就不是 HEXO 加载了插件；但是可以看到这个功能的页面显示为“时光机”，blog 左侧还有豆瓣页面，我猜应该是通过某个 blog 搭建程序实现的。</p><p>找了一下，果然，博客程序是<a href="http://typecho.org/" target="_blank" rel="noopener">Typecho</a>，使用的主题是<a href="https://www.ihewro.com/archives/489/" target="_blank" rel="noopener">handsome</a>（这个主题竟然要 88……）</p><p>用 “时光机” 作为关键词搜索了一下，插件应该是 <a href="https://maomao.ink/index.php/web/438.html" target="_blank" rel="noopener">Type 时光机</a>。这个<a href="https://handsome2.ihewro.com/#/wechat" target="_blank" rel="noopener">说说功能</a> 是主题里自带的。</p><p>好了破案到这里结束了，简单看了下 Typecho 这个搭建程序，优点在于比较轻量，可以实现相对简易的搭建—发布程序，插件和主题（能用莫泊桑！！！）都很多，也可以加载一些 HEXO 纯静态网页相对难实现的动态媒体插件，还可以直接导入 WordPress 文章，看起来搬家非常容易。</p><p>缺点是（蠢蠢欲动试图踩上轮子时突然想到）：买国外服务器麻烦，买国内服务器审查，并且这个时光机功能要通过微信公众号来中转，不是很安全。而且感觉也不是真的需要，只是想玩玩。</p><p>但它是一个很好的下次搬家时候的选择。</p>]]></content>
+    
+    <summary type="html">
+    
+      「对新的轮子蠢蠢欲动」
+    
+    </summary>
+    
+      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>五月听了啥 | 关于 Podcast 一些听后感</title>
+    <link href="https://kashuukiyoko.github.io/posts/672a6f26/"/>
+    <id>https://kashuukiyoko.github.io/posts/672a6f26/</id>
+    <published>2020-05-17T13:26:40.000Z</published>
+    <updated>2020-05-21T13:28:31.447Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>五月开的另一个栏目是听播客的一些记录，碎片化发布在长毛象，月末（或者过一段时间）集中整理到 blog，没有豆瓣单集标记真的好不方便。</p><p><strong> 随机波动 004</strong> 听了随机波动最新一期讲动森的，不玩游戏的人真的不要强行去搭这个话题了，她们对游戏的认知和了解明显是由各类公众号和微博内容拼凑来的，充满显而易见的不了解乃至误解，就算之后话题往游戏的阶级性和特权性这些她们熟悉擅长的领域上走了，也只能让人感觉：天啊，又来了。 说动森资本主义投射的播客和稿子挺多的，一碰到这个话题，能听到什么内容基本上有预期，但没玩过游戏——仅凭 “听说” 就聊出个节目来——包括她们请的 “游戏研究者” 嘉宾听起来也是个不打游戏的游戏研究者——我觉得不太行。</p><p><strong> 纸谈综艺目前出的两期 </strong>，有趣，对我来说属于不看综艺的人听学综艺但不做综艺的人讲综艺；杯弓舌瘾讲咖啡的一期，我好爱听这种我完全不接触领域的东西；<strong> 忽左忽右从东京大饭店讲到精致饮食的一期 </strong>，cue 到了我很喜欢的一本《厨房里的人类学家》；<strong> 无时差研究所讲日本的一期 </strong>，听了一半，目前来讲内容还都是耳熟能详的耻文化职场文化那些，回头听听后半有什么展开</p><p><strong> 没理想编辑部《iPhone 之前，我们都玩文曲星》</strong>，看理想的两个播客质量都很高，这一期往后话题自然而然转移到技术陷阱和“被抛下的人”，其实不新鲜，但说到外国人入华实际上被正常技术生活排斥的现状。和国内人出国也背着墙，还是忍不住觉得叹息。</p><p><strong> 初学者电台《发酵与酿造，从学习饲养微生物开始》</strong>，基本上就是你问我答搞科普，这个电台的水准也太跌宕起伏了，前几期有真的很有趣的内容，这期的主持人讲话除了像读稿子，还死气沉沉得只听见了嘉宾的尴尬……</p><p><strong> 博物志《动物森友会博物馆表彰会暨南京海底世界伤心记》</strong>，所有谈动物森友会的播客里最好的单集！！兼顾关联性和专业性，听到一半的时候就很忍不住，想把这期扔给随机波动组，让她们听听什么才是优秀的蹭热点<br>而且完全听得出来，嘉宾王汉洋真的非常喜欢他谈到的那些动物和相关涉及的领域，这种喜欢是从语速里漫出来的，这让他讲到的内容变得非常非常吸引人。</p><p><strong> 怪异电台谈异度入侵和虚构推理的两集 </strong>，都听了不到十分钟弃了，这家电台节奏我不喜欢，录音风格也相当国有企业，我走了个神回来恍惚就觉得是一个男性领导和他手下的女性员工促膝长谈。</p><p><strong>Nice try 《享受人与人之间不合适的距离》</strong><br>也没听下去，听了几期感觉这家电台可能就是不对波长吧，每次听他们节目，十几分钟后就发现根本不知道他们到底要聊什么，我就直接换台了。</p><p><strong> 杯弓舌瘾 - 人在酒途之戴老师和小怪勇闯茅台镇 </strong><br>这一期的精华是开头十分钟，能明显听出来在茅台镇呆了一天的两位那种喝高了的喜悦 xxxx</p><p><strong> 忽左忽右 - 王俊煜：迟早大家不会再装 App</strong><br>这期嘉宾我挺感兴趣，但其实挺平淡的，基本是在破案：原来创作者是这么想的，怪不得我用不下去轻芒</p><p><strong> 贝望录 - 关于新广告法，这些是你需要了解的。</strong><br>嘉宾是中国广告协会会长，一面在想哇哦这播客做得有点意思，一面在扶额这做得，完全是个政策解读节目了（<br>比较有意思的内容是谈到了对微商和直播的监管。很惊奇到了 2020 年上头还管微商叫新事物，并且听起来没有靠谱的监管方案。反而相对更 “新事物” 的直播带货，倒是有更完整的（有没有用先放一边的）规范措施。<br>后半截听起来官味儿真的好浓，主持人坚称中广协为大家长，嘉宾坚拒 “不不不，大服务员” 的三推三让段落实在是……</p><p><strong> 纸谈综艺 - Vol.3 素人恋爱真人秀：我们为什么看陌生人谈恋爱？</strong><br>这一期相当于是国内外恋爱真人秀的科普节目了，嘉宾念稿和排演的痕迹很明显，感觉两位还是没能做到 “对谈” 上的游刃有余，更像是本身也对这方面不是非常了解，去做了大量功课之后的产物，前两期自然得多。<br>但很有意思，我喜欢 “恋爱真人秀虽然是真人秀的包装，但本质是偶像剧” 这个观点。</p>]]></content>
+    
+    <summary type="html">
+    
+      「尝试一下用这种方式来记听过的Podcast」
+    
+    </summary>
+    
+      <category term="醒时节披衣坐" scheme="https://kashuukiyoko.github.io/categories/%E9%86%92%E6%97%B6%E8%8A%82%E6%8A%AB%E8%A1%A3%E5%9D%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>五月读了啥 | 《女巫一定得死》</title>
+    <link href="https://kashuukiyoko.github.io/posts/f993ac95/"/>
+    <id>https://kashuukiyoko.github.io/posts/f993ac95/</id>
+    <published>2020-05-17T13:23:51.000Z</published>
+    <updated>2020-05-21T13:25:47.431Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>——尝试复述读到的观点类（或者别的随便怎么叫它）书籍里感兴趣的部分，碎片化发布到长毛象，读完后整理到 blog。</p><p><img src="https://kashuukiyoko.files.wordpress.com/2020/05/image.png?w=1024" alt="img"></p><ul><li><p>“相对于希腊神话与传说中，故事进行的动力都来自于男性角色，童话故事确是以女性为主，肯定女性在激发儿童发展中的重要性”</p></li><li><p>这本书给的 “女巫为什么一定得死，而且必须死得很残忍” 的解释还挺有意思的……<br>作者认为童话故事里的 “坏女巫” 形象是儿童自我认知中坏的一面的投射。童话故事通过 “跨越”“遭遇”“征服”“欢庆” 的故事发展四部曲，帮助儿童来进行自我认知。<br>因此在这个仪式的最后，为了涤清儿童内心的罪恶与可耻的欲望，女巫必须死。<br>同时为了能够确证内心中所有坏的部分已被清除，女巫的死亡就必须被认知为彻底而完全的，哪怕采取在现实当中的极端暴力——有一说一有的死法确实还挺瘆人</p></li><li><p>我发现整理读到或者听到的观点很好玩，决定继续干一段时间。<br>作者在谈《小红帽》的不同版本演变和不同结局，在这个故事中，西方和日本的故事版本产生了很大区别：西方故事的不同版本里，“狼”“穿上狼皮的女巫 “的结局都是被小红帽杀死，而在日本版本里，” 大野狼“并没有死掉，而是已经学到了教训，或者是向小红帽赔礼道歉，承诺会改过自新。<br>作者认为这反应出了同一童话故事在不同文化的变异，反应了童话故事与所处社会习俗价值的交互影响。日本的教育者认为最好在儿童时期就教育孩子懂得原谅他人，犯罪者，无论是”大野狼 “还是” 女巫 “，都必须为自己的罪过向受害者道歉，这是和现代日本强调” 社会和谐“息息相关的。而相对来说，西方的童话故事更遵循以眼还眼，以牙还牙的原则，唯有消灭故事里的邪恶角色，正义才得以伸张。</p></li><li><p>原来《玩具总动员》结局的设置在部分人眼里看来还有另一层意义……<br>总结一下就是”安迪一家即将搬家，搬家引起了儿童普遍性的对于环境改变的焦虑，此时巴斯光年就代表新环境下的未知与意外，而伍迪代表旧环境给予的安全和稳定。《玩具总动员》的结局里，巴斯光年和伍迪联合起来，使搬家成为了小男孩正面的体验，从而抚平了这一焦虑，玩具们也握手言和。</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      「我发现整理读到或者听到的观点很好玩，决定继续干一段时间。」
+    
+    </summary>
+    
+      <category term="分与读书灯" scheme="https://kashuukiyoko.github.io/categories/%E5%88%86%E4%B8%8E%E8%AF%BB%E4%B9%A6%E7%81%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>四月 | 多看了点儿书，但没看电影</title>
+    <link href="https://kashuukiyoko.github.io/posts/30462c0e/"/>
+    <id>https://kashuukiyoko.github.io/posts/30462c0e/</id>
+    <published>2020-04-30T13:05:00.000Z</published>
+    <updated>2020-05-21T13:25:28.935Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>翻到去年一二月的时候写的读书观影笔记，当时觉得好折腾，又贴得难看，记了两个月放弃了。过了一年翻出来看觉得实在有意思，于是思考怎么再把这种类型的手帐做起来，先把月总结重新写一写。</p><h3><span id="读了什么"><strong>| 读了什么 |</strong></span></h3><p>这个月因为逐渐在淡微博，阅读数量翻倍上涨，一个月看了七本。虽然一直想做主题阅读，也确实做了一些功课，但是注意力还是东探西望，稳不下来，于是又看了一堆五花八门的闲书。</p><p>一开始想用逐条列书目的方式，在想怎么用比较漂亮的方式把书目贴出来……wordpress 自带的嵌入功能不支持豆瓣，倒是有插件，但是必须付费，还挺贵。<br>也试了自带的左右列排版功能，效果不怎么令人满意。<br>也许应该在豆瓣写，写完以后再在这里贴个链接？可是豆瓣一直不支持文章导出，还是有一点放心不下。</p><p>找到合适的方法前，干脆就闲谈一下吧。</p><p>这个月前半截看得很漫无目的，把阿猎之前推的《落在远方的果实》上册看完了。一直可能因为微博刷多了的关系，看这种类型的书会有一点烦躁，仿佛它并没有说明什么超出我个人知识体系以外的东西，只是把我知道的碎片们串了起来，所以每次读到能引入新东西的书都特别快乐。这本就是如此，前面一直浑浑噩噩地在读故事，直到 “疯人骄傲运动” 这个名词当头棒喝，才明白 “身份认同” 这个概念竟然能有这么宽广，哇，有趣。</p><p>另外就是看了一本《地球编年史》，好玩极了。小时候看盗版书里讲都市飞碟传说和人类起源于外星人，结果一晃十几二十年，竟然能看到有关这方面的系统性著作。我一边看一边大笑，反正也不知道到底是不是真的，就权当它是真的。</p><p>月底因为看到有朋友在抽文豪衣装，搜了一下发现微信阅读有泉镜花的译本，所以开始看泉镜花。我好喜欢泉镜花啊，以前读《文学少女》就非常喜欢讲夜叉池的那一册，自己去读的时候最喜欢《外科室》。《外科室》描写男女主人公的笔墨实际上非常少，无论是初遇还是再会，都只有电光火石般的那一瞬，是在文章中也贯彻了这样漫长的克制和迸发，好迷人。</p><p>五月的打算是把《金瓶梅》重新过一遍，因为突然很好奇 “金学” 相关著作，所以得先把原著看一遍。然后《诡秘之主》明天完结，杀气腾腾，提刀开宰，剩下的应该会看两本社会学的书，但计划赶不上变化，谁知道到底会看些什么呢。</p><hr><h3><span id="听了什么">| <strong> 听了什么 |</strong></span></h3><p>其实这一块本来应该是“看了什么”，但疫情当头，电影院全不开门，我在家里实在是看不来电影，连 NTlive 都耐不下心，所以整个月什么也没看，只好狂听播客贴胶带。</p><p>听了比较有意思的几期，一期是杯弓舌瘾的 <strong><a href="https://castbox.fm/episode / 啤酒评委是“高危工种”？-id2575102-id247779537?country=cn" target="_blank" rel="noopener">啤酒评委是“高危工种”？</a></strong>，我完全不喝酒，听这个播客是因为厌烦了所有的播客都在讲肖战 B 站耽改剧 N 号房和女性主义，所以干脆去找一个完全兴趣领域的播客来听他们聊天。结果收获远超所料，讲的是家酿啤酒和家酿啤酒的发展历程，听得我打开淘宝开始搜索水果啤酒。另外一期 <strong><em>\</em><a href="https://castbox.fm/episode / 在日本喝一杯：从大酒店到居酒屋 - id2575102-id242910380?country=cn" target="_blank" rel="noopener">在日本喝一杯：从大酒店到居酒屋</a>**</strong> 也非常非常有意思。</p><p><strong><a href="https://castbox.fm/episode/【随机波动 004】房贷总是要还的，不在城里就在岛上 - id2713503-id253891742?country=cn" target="_blank" rel="noopener">【随机波动 004】房贷总是要还的，不在城里就在岛上</a></strong>，这一期令人印象深刻的地方主要是它做得太烂了——比随机波动一贯的水准跌了大概一百个随机波动吧，我听完气得专门写了个微博骂它……：“听了随机波动最新一期讲动森的，不玩游戏的人真的不要强行去搭这个话题了，她们对游戏的认知和了解明显是由各类公众号和微博内容拼凑来的，充满显而易见的不了解乃至误解，就算之后话题往游戏的阶级性和特权性这些她们熟悉擅长的领域上走了，也只能让人感觉：天啊，又来了。 说动森资本主义投射的播客和稿子挺多的，一碰到这个话题，能听到什么内容基本上有预期，但没玩过游戏——仅凭 “听说” 就聊出个节目来——包括她们请的 “游戏研究者” 嘉宾听起来也是个不打游戏的游戏研究者——我觉得不太行”</p><p>井户端会议有一期 <strong><a href="https://castbox.fm/episode/【梵高 MoneyTalk】通缩 vs 通胀：金融危机下的自处与思考 - id2553241-id249906937?country=cn" target="_blank" rel="noopener">【梵高 MoneyTalk】通缩 vs 通胀：金融危机下的自处与思考</a></strong> 也挺有趣，我不太喜欢两个主播，觉得有一种微妙的高傲，但是听他们聊金融故事还是很轻松愉快。</p><p><a href="https://castbox.fm/episode / 我给网红做经纪人 - id2522289-id251300096?country=cn" target="_blank" rel="noopener"><strong> 贝望录讲网红的一期 </strong></a>超好玩的，我在 B 站就会看很多开箱啊还有拼贴视频，第一次意识到这些 UP 主也是签约网红——感觉就好像是次元壁突然被打破了。我好喜欢这种讲行业的播客，比平常看相关的文章要让人感觉离生活更近，会突然意识到平常没注意的一些东西。</p><hr><h3><span id="玩了什么">| <strong> 玩了什么 |</strong></span></h3><p>打完了路易吉洋楼，作为一个打完全流程也才 20 小时的小品游戏来说，我足足打了一个月已经很说明很多问题了——动森实在太好玩了。</p><p>点评就一句“路易吉洋楼 3：一部手把手教你认识马里奥奥德赛到底有多好的游戏。”。</p><p>五月想把 DQ11 打完，不知道有没有时间打，我开始懒得上动森了</p><hr><h3><span id="碎碎念"><strong>| 碎碎念 |</strong></span></h3><p>上次写 blog 说我把微博卸了，结果第二周我就把它又装上了，很忧愁。<br>不过使用频率确实下降了，所以我理解只是短期反弹。<br>比如今天晚上我又把它卸了。<br>也许是一个长期斗争，谁知道呢。</p><p>四月整个人情绪都不太好，开始靠买胶带来舒缓情绪，所以一口气买了超——多胶带，现在纸上物上大概有两三百米存货吧，昨天清货撒米发现三十多米我就贴了一本离型纸本，现在也非常忧愁，不知道怎么把这两三百米消化了。尤其是因为看 UP 主贴造景，所以我还买了巨多超宽造景胶带……<br>用是肯定用不完了，我得学会面对现实。</p><p>本月惊喜购物是国誉的八孔活页夹，差不多是我用过最好用的活页夹了，书脊做了改良，相当轻薄，孔位好像也做了优化，翻阅起来相当舒适，不会过多消耗活页孔的寿命。<br>结果姐妹群里一聊，发现我们仨不约而同，全买了。</p><p>发现每个月我都会专门想想手账本子规划这件事，今年用余白这件事是彻底失败了，非常不甘心，但还是完全用不来这个本子，决定只用它贴拼贴。先让我把它贴完，万一有一天我就想写它了呢？<br>然后因为日期也过了，所以今年就只用五年日记，一开始觉得非常好，五年真的很好写，写和装饰都非常快。写了四个月以后觉得非常少的写作空间反而会让人觉得无话可写，回头一看有大概半个月我完全不知道写什么，每天只是随便糊弄一下。<br>在想明年怎么办，五年肯定还要写，那么就要解决两个本子内容重复的问题。还有就是要把其他本子都消耗一下，真的买太多了又不用。</p>]]></content>
+    
+    <summary type="html">
+    
+      「四月份来闲谈一下」
+    
+    </summary>
+    
+      <category term="醒时节披衣坐" scheme="https://kashuukiyoko.github.io/categories/%E9%86%92%E6%97%B6%E8%8A%82%E6%8A%AB%E8%A1%A3%E5%9D%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>四月 | 卸载微博一周</title>
+    <link href="https://kashuukiyoko.github.io/posts/f3941aaf/"/>
+    <id>https://kashuukiyoko.github.io/posts/f3941aaf/</id>
+    <published>2020-04-19T12:57:40.000Z</published>
+    <updated>2020-05-21T13:22:33.335Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p> 现在还记得卸载剑三的那一天，大概是个深夜，有返点卡活动所以先买了三百块钱点卡，做出了小橙武，对着配装表折腾完了奶毒的小版本配装，打了块一直不太舍得用的精简石头，花掉二十来万，欣赏了好半天属性面板，想了想，把游戏卸了。</p><p>之前有好多次在想 AFK 可能会发生什么，那天应该停在哪里——天泽楼，每一次答案都是天泽楼——实际上真的 AFK 的时候反倒是很平静很日常的一天， 没有过剩的喜怒哀乐，像是临睡前抬手关灯。<br>卸微博也差不多，删掉客户端时候在吃饭，满脑子都是食物，容不下什么情绪。一个多小时后才想起来完了，我不知道我的账号登录名是什么。</p><p>不过事已至此，来谈谈感想吧：<br><strong> 爽——死——了——</strong></p><p>会拿卸微博和卸剑三对比，是因为忽然发现它们其实是差不多的东西。<br>当年迟迟不肯 AFK，是仍然对这个游戏抱有希望，还有些人需要联系，觉得它已经是生活的一部分。而微博也相似，我在微博舆论场深受其扰却迟迟不愿脱身，也是仍然总是觉得还有些信息需要从微博获取，有些朋友需要用微博联系，微博甚至比游戏更牢固地成为我生活的一部分，倒不如说我的生活更像是攀附着微博生长的，第二人生。</p><p>A 掉剑三后发现这些顾虑都是我想像出来的，卸掉微博后也如此。<br>真的有那么多信息需要被摄入吗——不需要，真的有那么多人需要被联系吗——不需要，我的生活真的需要与微博共生吗——不需要。我 A 掉剑三以后时常惊叹我多了太多时间去做别的事情，卸掉微博也如此。大概精神生活也同样需要时不时地断舍离。</p><p>我好快乐。</p>]]></content>
+    
+    <summary type="html">
+    
+      「真的想过很多次AFK的时候要在哪里下线」
+    
+    </summary>
+    
+      <category term="醒时节披衣坐" scheme="https://kashuukiyoko.github.io/categories/%E9%86%92%E6%97%B6%E8%8A%82%E6%8A%AB%E8%A1%A3%E5%9D%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>书摘 | 天下刀宗</title>
+    <link href="https://kashuukiyoko.github.io/posts/e291aaf9/"/>
+    <id>https://kashuukiyoko.github.io/posts/e291aaf9/</id>
+    <published>2020-04-07T12:49:48.000Z</published>
+    <updated>2020-05-21T12:56:59.151Z</updated>
+    
+    <content type="html"><![CDATA[<hr><ul><li><p>月色里，他提着剑往回走，鸟兽的窸窣声远近起伏；随着他手腕晃动，有一蓬锈迹斑斑的光在山林间一闪一闪。他走了很久，像走在一场长梦里。 七年来，无数次梦入江湖，天地都在雾中。那雾气遮蔽紫陌红尘，掩去飞马快剑，不让他看个分明</p></li><li><p>师徒俩跟着管家去账房取银子，走出几步，叶凉颈后忽一凉，莫名觉得背后有人正在注视自己。回头望去，却见雷缨络的面纱皱起了一角，唇边挂着血丝，发梢低垂，像是被流淌的日光打湿了。 她孤零零地站在那里，一言不发，但叶凉却恍惚听见了什么，仿佛她成了一块多孔而峻峭的奇石，秋风偶过，呜咽如歌。</p></li><li><p>“那女子性情孤清，长久以来都很不开心，到此刻忽有所悟：多年前烛火照出的，正是她的本相。从此她心绪开通了许多，隐居巴山，夜观烛影，日悟剑意，竟创出一路烛剑相生、人影互化的神异剑术来，慢慢地才有了巴山烛照剑一派。”<br>叶凉数了数，他们共有九人，正低语交谈。门外烛火与店中灯火相隔而峙，倒像是两片火光有什么仇怨似的。</p></li><li><p>两人上马驰出里许，在一条浅溪边遇到了那女子，她孤零零坐在溪边，长发垂在颈侧，似在梳洗头发。 叶凉欲走上前去，忽被拉住，转头看向师父，却见吴重缓缓摇了摇头。师徒俩默默看着那女子清洗脸颊、对溪照影，良久过去，忽听她歌道： “失我焉支山，桃李无颜色，思君君未归，归来岂相识？”歌声轻郁，恍如新生的春草在原野上低昂徘徊。吴重轻声道：“这是无颜崖杀手的辞世之句。”</p></li><li><p>刀光在陈彻的脸上折出亮斑，直视刀锋让他感到了一丝暖意，于是他又闭上了眼，继续睡觉。<br>镇上的石街不怎么平整，春草蹿满了大大小小的石缝，陈彻就躺在街上，那些野草倒像是从他身上蔓生出来的。</p></li><li><p>方轻游忽道：“简公子，苏州简家素来是武林正道世家，令尊简熙简老前辈生前也是江湖中有名的侠士，如今简公子为了一枚青锋令便要累及无辜，只怕令尊泉下有知，也绝不愿见到。”<br>简青兮点了点头，道：“那我便当他泉下无知好了。”</p></li><li><p>简青兮微笑道：“在下既觉诸位都是好人，也不觉得自己是恶人，只是世道无常，好人与好人为敌，原也不罕见。”楚轻鸿道：“阁下只为一己名利，便擒下不会武功的无辜弱者作为要挟，如此自私龌龊之举，如何还敢以好人自居？”简青兮道：“世人无不自私龌龊，只是深浅不同而已。”</p></li><li><p>当是时，刀光般的朝霞横在天上，刀风化作万里春风，斩得天地间一阵阵微凉。 陈彻在睡梦中感到了一丝刀意。</p></li><li><p>他避开了宁简的目光，慢慢站起，伸了个懒腰，轻声道：“气鼓鼓的阿狐没了，睡不醒的陈彻也没了…… 现下只有我了。” 宁简闻言打量了他许久，默然不语。<br>月色清柔，两人在空落落的长街上相对而立，两道斜长的影子如溪水般，淌在青石地面上。</p></li><li><p>尹天敌一步落定，却仍距叶凉两丈有余，胸前缓缓洇出狭细的一痕血，默然片刻，转头对陈彻道： “我的第二步是五斩，第三步有七斩，你却见不着了…… 可惜这江湖却见不着了。”陈彻默然点头，不知该说些什么，走到尹天敌身旁不远处，将地上的烙饼捡了起来。</p></li><li><p>陈彻与叶凉跌坐在地，闻言几乎同时明白过来：他们先前之所以觉得这镇子处处不对，便是因为镇上处处都有燕寄羽的笔意——这镇子的屋舍、街巷与草木看似都与别的西域小镇无甚分别，却又处处都被精心修整布置过，那些斑驳的墙面，石街的缝隙，枯树的枝条，绵连的灯火，还有那个大石舂，那些木门上的种种痕迹…… 却都是一道道的笔画，都蕴含着 “惊鸿影” 的笔意。 这舂雪镇看似寻常，实则已被写满了字迹。<br>叶凉怔怔看着燕寄羽，一瞬间仿佛看见了真正的“惊鸿影”，那绝非一只小小酒碗里升腾起的水汽，而是一只翼展千百里的飞鸿，早已盘旋在高空，将巨大而浓郁的影子投在了镇上。</p></li></ul><hr><p>读起来的感觉很“飘摇”，无论是昆仑山中迄今仍未具象化的旷然刀意，山中半日红妆朝生暮死的杀手，还是以懵懂眼光涉入江湖中的主角，进一步说是转蓬飘摇，退一步说是摇曳如梦，美得非常。缺点是可能因为缺乏连载经验，布局谋篇上有所短缺，这样薄而轻的意境，在短篇中是很隽永的，可在长篇里一以贯之地维持这样一种“势”，读者就只能一以贯之地以仰望的姿势来读，太久就无从着力，无所适从。到结尾就有一些收不住的感觉了。</p><p>——能沉一沉就太好了，可是不沉也很美，是虚飘的，是虚无的，是虚幻的，可是虚飘的美也是美，虚无的美也是美，虚幻的美也是美，美是不介意这些的。</p>]]></content>
+    
+    <summary type="html">
+    
+      「失我焉支山，桃李无颜色，思君君未归，归来岂相识？」
+    
+    </summary>
+    
+      <category term="分与读书灯" scheme="https://kashuukiyoko.github.io/categories/%E5%88%86%E4%B8%8E%E8%AF%BB%E4%B9%A6%E7%81%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>三月 | 随便写一写</title>
+    <link href="https://kashuukiyoko.github.io/posts/fca2668c/"/>
+    <id>https://kashuukiyoko.github.io/posts/fca2668c/</id>
+    <published>2020-03-29T12:36:44.000Z</published>
+    <updated>2020-05-21T12:45:03.520Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>三月生日月。<br>每次过生日都觉得很害怕，落在身后的日子臃肿痴肥，在界限上回望的时候便觉得羞愧。<br>说 “那年我去洛阳的时候” 而不是“大二那年我去洛阳玩”<br>说 “我去济南的时候” 而不是“大四那年我去过济南”<br>年与年的分界模糊起来，其实也分不清到底是不是大二去的洛阳，大四去的济南。那年和朋友开玩笑，说十五六岁的时候很热衷于介绍自己，从哪里来，到哪里去，那时候很简单，大家都差不多，一望见底。但二十五岁变得很害怕这件事。<br>觉得过去望不到头，未来也望不到头。去处去，来处来。</p><p>大家都很喧嚣。<br>不是新鲜事，讨论的话题太多就想逃开，喜欢的东西也这样，不喜欢的也这样，喜欢的东西是任天堂，不喜欢的事情是新冠肺炎。<br>新冠肺炎讨论度超过两个月这件事很可怕的，但是想一想战争，爱，歧视，和平，这些词也讨论了好几千年了。大家居然还没有厌倦。<br>说明只是我被搅扰得很喧嚣。不能怪到别人。</p><p>19 号晚上用抢口罩的气势反复按 A 键打开动森，服务器晚了几分钟，十几秒后群里就开始惊慌地互相问消息，过了几天整个世界好似用开水浇蚁窝，密密麻麻地爬满了相似的关键字。<br>动森真的是很奇妙的游戏，以前看访谈陈星汉，陈星汉做《光 · 遇》，说他们“不能让任何玩家觉得这个游戏在数值上如果‘给予’的话会更赚”。我有两个动森的群，聊天内容都一样，每晚串门分享水果和家具，好像也达到了陈星汉说的“我们花了很大的心思去让玩家在默认中会喜欢另外一个玩家”。<br>动森的好处在于尽管时间与现实同步却不辨日月，现实中不是这样的。现实里再也不能用一整个下午在户外抓蝴蝶，没有一整个下午，当然也没有蝴蝶。<br>和学建筑的朋友聊小岛规划，她谈到了日照阴影和河道水势，脑子发麻。真要是活的小岛就好了，让树自己长和挪，人类和动物在它们之间找地方。</p><p>不过当打开 NGA 的时候动森和其他游戏就没有什么区别了，NGA 老哥总是很人间烟火，把副本事谈成家常事，也总把任何游戏都打成速通。<br>还挺可爱。</p><p>周一的时候看到小区的检测棚子撤了，公园的绿地上飘龙形风筝。周五去联建小区，有风有雨，检测棚也没人，在他们办公室熬了个上午。没下雨的那几天有很漂亮的绿绣球，同事往前走，我抓紧时间拍。再往上数在联建小区碰到很漂亮的一个姐姐，宝宝七个月，活泼健谈，十分钟说了两句“女孩子不用……”。<br>生命力和腐气很协调地并存了。</p><p>如果不是新冠肺炎，此时应该在上海和很喜欢的朋友住在一起，手拉手去看交响音乐会。<br>总是在这种节点很强烈地意识到失去了什么，本应该拥有什么。<br>结果是在生日前夕和同事们去吃火锅，晚上把林奕含的 facebook 拿出来读，又读到她写“像七夕的鹊桥，像走在无数个吻之上”，这句话轻盈得好像躯壳和无限烦恼都一并消弭了。</p><p>买了新的粉红色菱格小包，放充电宝，放数据线，放纸巾，kindle 和手机，weeks 挤挤挨挨地从包口探半个头出来，觉得快乐。</p><p>学会 shift 和 enter 一起按的话可以只分段不空行。</p>]]></content>
+    
+    <summary type="html">
+    
+      「三月生日月」
+    
+    </summary>
+    
+      <category term="醒时节披衣坐" scheme="https://kashuukiyoko.github.io/categories/%E9%86%92%E6%97%B6%E8%8A%82%E6%8A%AB%E8%A1%A3%E5%9D%90/"/>
     
     
   </entry>
@@ -233,186 +412,6 @@
     </summary>
     
       <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>BUG | 增加 Maupassant 主题全站字数统计</title>
-    <link href="https://kashuukiyoko.github.io/posts/793210e1/"/>
-    <id>https://kashuukiyoko.github.io/posts/793210e1/</id>
-    <published>2019-01-21T14:19:00.408Z</published>
-    <updated>2020-03-07T08:01:27.451Z</updated>
-    
-    <content type="html"><![CDATA[<h3><span id="写在前面">写在前面</span></h3><p>总之最终效果请看网站最下方——要解决的还挺多的，比如我还是没弄明白怎么给每个部分前加个小图标，想改掉页尾部分的宽度让居中更美观，还想加一点其他的东西…… 现在解决小图标是用的特殊字符，其实我觉得效果也不错。</p><p>以及真的好羡慕隔壁 Next 主题啊，隔壁开这些功能就没 Maupassant 这么麻烦…… 搜教程的时候经常就是 “今天想看看怎么统计全站字数我们来搜搜教程吧！”“全世界都是 Next 教程一看原来他们已经集成过了！” </p><p>况且 Next 用的是 Swig，Maupassant 用的是 jade（这也是我这次研究才搞明白的，而且 jade 和 pug 居然是一个东西），两者不通用，抄代码就更难了，除了表演现场跳楼我也没什么可做的了……</p><hr><h3><span id="总之不管怎么样其实还挺简单的">总之不管怎么样其实还挺简单的</span></h3><p>说起来为了抄代码，我 Google 了大概也就两个小时吧，抛去各种试错补救错上加错网站崩溃拖备份重置的过程，最后跟着这么做你就能有一个长得很丑的字数统计了，真是完全不期待。</p><p>先讲一下思路吧，虽然是抄的代码但是还是学到了点东西。</p><p>就，昨天就在想，Next 主题和 Maupassant 统计单篇字数和全站用的都是同一个 WordCount 插件，也就是说其实功能已经有了，只是 Maupassant 没有在代码里写出来而已。而这个时候我已经知道了页尾文件是 <code>E:\hexo\themes\maupassant\layout\_partial\footer.pug</code>，这就说明我们倒腾来倒腾去，需要倒腾的就是 <code>footer.pug</code> 这个文件。</p><p>那么打开 footer.pug，代码长这样：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#footer= &apos;Copyright © &apos; + date(Date.now(), &apos;YYYY&apos;) + &apos; &apos;</span><br><span class="line">  a(href=url_for(&apos;.&apos;), rel=&apos;nofollow&apos;)= config.title + &apos;.&apos;</span><br><span class="line">  |  Powered by</span><br><span class="line">  a(rel=&apos;nofollow&apos;, target=&apos;_blank&apos;, href=&apos;https://hexo.io&apos;)  Hexo.</span><br><span class="line">  a(rel=&apos;nofollow&apos;, target=&apos;_blank&apos;, href=&apos;https://github.com/tufu9441/maupassant-hexo&apos;)  Theme</span><br><span class="line">  |  by</span><br><span class="line">  a(rel=&apos;nofollow&apos;, target=&apos;_blank&apos;, href=&apos;https://github.com/pagecho&apos;)  Cho.</span><br></pre></td></tr></table></figure><p>研究一下和原来页尾的对应：</p><blockquote><p>CCopyright © 2019 <a href="http://localhost:4000/" target="_blank" rel="noopener">懒云休憩室.</a> Powered by<a href="https://hexo.io/" target="_blank" rel="noopener"> Hexo.</a><a href="https://github.com/tufu9441/maupassant-hexo" target="_blank" rel="noopener"> Theme</a> by<a href="https://github.com/pagecho" target="_blank" rel="noopener"> Cho.</a> </p></blockquote><p>很明显是一段一对应的状态，既然插件已经装上去了，那用一段代码来描述一下（是这个词儿吗）让它显示全站字数不就完了。于是大刀阔斧地备份后先把所有的代码都删掉，打开了 google，搜索 Next 主题，决定先抄一下它的代码。</p><p>……Next 主题文档做得真好看，Next 主题的配置文件做得真详细，我好嫉妒。</p><p>虽然直接抄没有用（崩溃地搜了搜发现用的语言不一样而且没有转换器只有 <a href="https://html2jade.org/" target="_blank" rel="noopener">html 转 jade</a>），但是大概知道了这一段长成什么样，应该找什么新的关键词，再一顿 Google，发现了一个直接 po 了代码的好人 <a href="https://chad-it.github.io/2018/07/01/Hexo%E9%9B%86%E6%88%90WordCount%E6%8F%92%E4%BB%B6/" target="_blank" rel="noopener">Hexo 集成 WordCount 插件</a></p><p>文章中写出了完整的 WordCount 插件使用的 jade 代码：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">// 文章字数，阅读用时 </span><br><span class="line">div(style=&apos;margin-top:10px;&apos;)</span><br><span class="line">    span.post-time</span><br><span class="line">        span.post-meta-item-icon</span><br><span class="line">            i.far.fa-keyboard</span><br><span class="line">            span.post-meta-item-text  字数统计: </span><br><span class="line">            span.post-count= wordcount(item.content)</span><br><span class="line">            span.post-meta-item-text 字 & amp;nbsp;&amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;&amp;nbsp;</span><br><span class="line">    span.post-time</span><br><span class="line">        span.post-meta-item-icon</span><br><span class="line">            i.far.fa-clock</span><br><span class="line">            span.post-meta-item-text  阅读时长: </span><br><span class="line">            span.post-count= min2read(item.content)</span><br><span class="line">            span.post-meta-item-text 分 </span><br><span class="line">// 博客文章总字数 </span><br><span class="line">div(style=&apos;margin-top:10px;&apos;)</span><br><span class="line">    span.post-time</span><br><span class="line">        span.post-meta-item-icon</span><br><span class="line">            i.far.fa-keyboard</span><br><span class="line">            span.post-meta-item-text  字数统计: </span><br><span class="line">            span.post-count= totalcount(site)</span><br><span class="line">            span.post-meta-item-text 字 </span><br></pre></td></tr></table></figure><p>把最后一段抄下来贴到 <code>footer.pug</code> 文件里，发现字数统计有了，但是委屈巴巴地窝在左下角，字号也小了，但是不管怎么样字数统计有了，耶！</p><hr><h3><span id="解决字数统计样式问题">解决字数统计样式问题</span></h3><p>东西有了就得解决不够美观的问题，一是 <strong> 字数统计 </strong> 位置问题，二是 <strong> 字号大小 </strong> 问题。</p><p><strong> 字数统计 </strong> 问题解决得特别神奇，Google 了半天无果，只通过对各种代码以及 CSS 文件的试错确认了样式应该就在这几行代码里，不用去其他地方改，然后突然脑子不知道搭错了哪根弦，抬手把代码里的 <code>div</code> 改成了 <code>span</code>，改完这样：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">span(style=&apos;margin-top:10px;&apos;)</span><br><span class="line">  span.post-time</span><br><span class="line">      span.post-meta-item-icon</span><br><span class="line">          i.far.fa-keyboard</span><br><span class="line">          span.post-meta-item-text  ♕ 她絮叨了: </span><br><span class="line">          span.post-count= totalcount(site)</span><br><span class="line">          span.post-meta-item-text</span><br></pre></td></tr></table></figure><p><code>hexo s -debug</code> 一试，发现位置问题解决了，目瞪口呆。</p><p>最后在 <code>footer.pug</code> 上写的完整代码为：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#footer= &apos;♛ 在这里的是：&apos; + date(Date.now(), &apos; 懒云 | &apos;) + &apos; &apos;</span><br><span class="line">  span(style=&apos;margin-top:10px;&apos;)</span><br><span class="line">    span.post-time</span><br><span class="line">        span.post-meta-item-icon</span><br><span class="line">            i.far.fa-keyboard</span><br><span class="line">            span.post-meta-item-text  ♕ 她絮叨了: </span><br><span class="line">            span.post-count= totalcount(site)</span><br><span class="line">            span.post-meta-item-text</span><br></pre></td></tr></table></figure><p><strong> 字号大小 </strong> 问题用到了 F12 审查元素，翻了半天 F12 发现在 css 文件的这儿：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#footer &#123;</span><br><span class="line">    padding: .8em 0 3.6em;</span><br><span class="line">    margin-top: 1em;</span><br><span class="line">    line-height: 2.5;</span><br><span class="line">    color: #6E7173;</span><br><span class="line">    text-align: center;</span><br><span class="line">    span &#123;</span><br><span class="line">        font-size: .9em;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>把所有看起来像字号的地方都试了一遍发现我可能眼瞎，明显是 <code>font-size: .9em;</code> 这一行嘛…… 改成 14px 就搞定了</p><blockquote><p>为了简化 font-size 的换算，可以在 css 中的 body 中先全局声明 font-size=62.5%，也就是定义了默认字体大小为 16px*0.625=10px, 子元素会继承父级元素的字体大小，于是 1em=10px，所以 12px=1.2<strong>em</strong> ——by Google</p></blockquote><hr><h3><span id="遗留问题">遗留问题：</span></h3><p>发现这一行没居中——准确的是，居的是整个页面左侧大栏的中，这样歪的就很难受，通过 F12 找到了应该改什么，但是就是没找到在哪儿改</p><hr><h3><span id="我学会了">我学会了：</span></h3><p>Next 用的是 Swig，Maupassant 用的是 jade，这两个不太一样但是可以用 html 转 jade。</p><p>熟练使用 F12 审查元素找应该改什么 CSS 项，为什么表述得这么奇怪呢因为我也不知道怎么说比较对。</p><p>em 和 px 之间的关系，学到了一个新参数。</p><p>一个备用的 <a href="http://www.w3school.com.cn/cssref/pr_text_text-align.asp" target="_blank" rel="noopener">CSS text-align 属性解释</a>，并且看完了才发现这就是旋岚给我的自学网站。</p><p>就算看不懂，不管三七二十一，先把能替换的替换一下看看哪个变了。</p><hr><h3><span id="我还想折腾">我还想折腾：</span></h3><p>给 blog 开个留言板，不要每篇文章底下的评论只开留言板，其实我已经设置好了 valine，但是好懒哦等晚点我再研究能不能关掉评论。</p><p>等我学会了前端技术我还要在页尾加一个全站总篇数。</p><p>说来惭愧，我还是不会在文章中插入图片………………</p>]]></content>
-    
-    <summary type="html">
-    
-      「改设置和爬山差不多，一山更比一山高，累死爬山人」
-    
-    </summary>
-    
-      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>BUG|Maupassant 主题加入字数统计</title>
-    <link href="https://kashuukiyoko.github.io/posts/b7707a4a/"/>
-    <id>https://kashuukiyoko.github.io/posts/b7707a4a/</id>
-    <published>2019-01-20T10:38:00.000Z</published>
-    <updated>2020-03-07T08:01:23.059Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>脑子一抽突然想给 blog 加个字数统计，查了一下 next 主题的教程，然后发现在 Maupassant 主题下的 <code>_config.yml</code> 文件里就有 <code>wordcount</code> 参数，于是捋起袖子改了个 ture。</p><p><code>hexo s -debug</code> 无事发生，于是吭哧吭哧继续查教程，翻到了<a href="https://www.jianshu.com/p/f615e79a50d7" target="_blank" rel="noopener">这个教程</a>，于是跟着装上了 <code>hexo-wordcount</code> 插件。</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm i --save hexo-wordcount</span><br></pre></td></tr></table></figure><p>心想这样应该没问题了，<code>hexo s -debug</code> 无事发生。</p><p>一时心情非常复杂，反复检查插件是不是装上了，反复确认确实装上了啊…… 我就关机洗澡去了。</p><p>俗话说洗澡时间是人类唯一进行思考的时间，古人诚不欺我，往头发上抹着抹着护发素，突然灵感迸发：别不是我把 true 写错了吧毕竟我这辈子就没记对过这个单词。</p><p>洗完回来吹着头发打开电脑一看果然是……</p><p>我……</p><p>……</p><p>…</p><p>。</p><hr><h3><span id="我学到的">我学到的：</span></h3><p>检查插件安装：<code>hexo --debug</code></p><p>遇事不决洗个澡</p><hr><h3><span id="我还想折腾">我还想折腾：</span></h3><p>能不能把那个时长统计给删了，又不靠谱又显得相对长度很难看。</p><p>目前试过删掉 wordcount.pug 中后半部分疑似时长统计的代码，结论无事发生，删掉整个文件也无事发生，所以这个文件有什么存在意义……</p><p>以及能不能在最下方统计全站字数，这方面我看了一下 shioko 的<a href="https://co5.me/2018/180613-wordcount.html" target="_blank" rel="noopener">next 字数统计日志</a>，她这个是能在最下方显示总字数的，回头看一看到底和 Maupassant 有什么不同可以抄过来。</p><p>为什么不现在抄呢：我超冷 der 现在我要继续吹头发</p><hr><h3><span id="2143-更新">21:43 更新</span></h3><p>看书休息一会，灵光突现跳起开机废话这么多主要是因为下面地址太长，于是解决了“删除阅读时长“问题，方法是打开 <code>E:\hexo\themes\maupassant\layout\_partial\wordcount.pug</code> 删除</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">span.post-time= &apos; | &apos;</span><br><span class="line">  span.post-meta-item-icon</span><br><span class="line">      i(class=&quot;fa fa-hourglass-half&quot;)</span><br><span class="line">      span.post-count= &apos; &apos;+min2read(page.content)</span><br><span class="line">      span.post-meta-item-text= &apos; &apos;+__(&apos;read_time&apos;)</span><br></pre></td></tr></table></figure><p>最终 wordcount.pug 里只显示如下内容</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">span.post-time</span><br><span class="line">  span.post-meta-item-text= &apos; | &apos;</span><br><span class="line">  span.post-meta-item-icon</span><br><span class="line">    i(class=&quot;fa fa-keyboard-o&quot;)</span><br><span class="line">    span.post-count= &apos; &apos;+wordcount(page.content)</span><br><span class="line">    span.post-meta-item-text= &quot; &quot;+__(&apos;word_cnt&apos;)</span><br></pre></td></tr></table></figure><p>对，就是刚刚我说的那个 “删过以后无事发生不知道有什么存在意义” 的操作。代码真是太玄学了完全不知道发生了什么它又好使了……</p><p>以及找到一篇也许有参考意义的 Next 主题实现全站字数统计的文章 <a href="https://albenw.github.io/posts/be8242cc/" target="_blank" rel="noopener">hexo 高级玩法</a>，以及看起来是<a href="https://www.npmjs.com/package/hexo-wordcount" target="_blank" rel="noopener">Hexo-WordCount</a> 插件文档的网站，放在这里供下次折腾使用</p><hr><h3><span id="一点思考">一点思考</span></h3><p>要不要让 blog 被 Google 和百度收录呢，一方面上次在群里说个话就被一口叫破上个马甲的事情还是十分令人瑟瑟发抖，一方面又觉得最近解决了不少问题，也许能为后来人指个路，一些教程实在是有点老了不适用……</p><p>我先好好想想吧 OTZ</p>]]></content>
-    
-    <summary type="html">
-    
-      「人啊，一定要好好学英语……」
-    
-    </summary>
-    
-      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>书摘 | 礼物的流动</title>
-    <link href="https://kashuukiyoko.github.io/posts/f471f86a/"/>
-    <id>https://kashuukiyoko.github.io/posts/f471f86a/</id>
-    <published>2019-01-19T14:37:00.000Z</published>
-    <updated>2019-01-28T14:50:48.586Z</updated>
-    
-    <content type="html"><![CDATA[<hr><ul><li>礼物馈赠是人类社会中最为重要的社会交换方式之一。义务性的礼物往来维持、强化并创造了各种——合作性的、竞争性的抑或是敌对性的——社会联结。因此，研究礼物交换为我们提供了一条理解和诠释既定社会中不同文化规则及社会关系结构的途径。</li></ul><ul><li>一个人馈赠出的礼物实际上是他天性和力量的一部分，而接受某个礼物也就是接受了送礼者的一部分精神真髄。保留这种东西是危险的，不仅是因为这样做犯忌，而且因为它在道义上、身体上以及心灵上来自于某个人”</li></ul><ul><li>因而礼物（不可让渡的［inalienable］物品）所创造的联结，就是人们之间的相互依赖关系。我们可以看到，在莫斯对礼物的分析中，根本问题是要究明人是如何与物以及如何通过物而与他人彼此互相关联的。</li></ul><ul><li>为反对莫斯的礼物之灵说，马林诺夫斯基在后来的一本书（1926）中收回了他的纯礼物概念并明确提出互惠（reciprocity）原则来解释地方的经济交易体系。他认为，经济义务的约束力在于任何一方都有可能诉诸制裁来中断交换联系。一个人给予是因为他期待报偿，而一个人回报是由于其伙伴可能中止给予的危险。一切权利和义务都“被置入互惠性服务的均衡链中”（1926：46）。这样他得出结论，互惠或者“馈赠——接受原则”（the principle of give-and-take）是美拉尼西亚社会秩序的基础</li></ul><ul><li>他确定了决定馈赠与交换之一般属性的三个重要变量：亲属关系的近远、合群度及慷慨度。论证了互惠的普遍性后，萨林斯还提出交换现象的三种类型：一般互惠、均衡互惠和否定性互惠。</li></ul><ul><li>与许多别的社会不同，中国的社会关系结构在很大程度上是由流动的、个体中心的社会网络而非凝固的社会制度支撑的，因而礼物馈赠和其他互惠交换在社会生活中扮演着重要的角色，特别是在维持、再生产及改造人际关系方面 </li></ul><ul><li>许多中国学者（参见 Hwang 1987；King 1988a，1991；Qiao 1988）最近已致力于建立一套基于中国人本土概念——用关系（个人网络）、人情（道德规范和人的情感）、面子（脸）和报（互换）——的分析框架。这种明确界定的中国式视角强调人际关系的重要性，它应该为送礼与社会交换的比较研究提供洞察力。</li></ul><ul><li>第二，中国人的礼物交换是嵌入于一个人类学家称为 “人格之文化建构” 的过程当中的：个人要通过礼物交换实践学会如何去和不同类型的人打交道。礼物交换不仅明确了社会所认可的人的界限（Vogel 1965；L.Yang 1957），而且有助于创造那种“地方道德世界中社会来往（transactions）的主体际媒介”（Kleinman and Kleinman 1991：277）的个体经验。</li></ul><ul><li>第三，在现代中国社会中，礼物交换仍然是经济和政治生活中一种重要的交换方式——它既是国家再分配体系的一部分，近来又成为市场商品体系的一部分。如果考虑到中国社会生活的现实情形，这一事实本身就是有意义的。探究过去 40 年间礼物关系的持续延存与转变也许会有助于说明，中国文化传统某些部分如何得以在社会主义制度下一直存留下来</li></ul><ul><li>“礼物”一词由两个字组成。第一个字 “礼” 的意思是仪式、礼节以及诸如忠孝的道德理念的仪礼性表达（见 Weber1968：156-57）。第二个字 “物” 的意思是物质的东西。值得注意的是，从词源上讲这个汉语词暗示了礼物（gift）不只是物质的礼品（present），它承载着文化的规则（礼节）并牵涉仪式。所以，无礼之物就只是物品而不是礼物。下岬的村民们完全意识到这个词的复杂内涵。在日常生活实践当中，他们常常把这个词缩略为“礼”，以突出礼物的文化符码，而不是其物质方面。例如，那些未能在预计的仪式情境中赠送礼品的人，会被村民们指责缺礼或者不懂礼。换言之，礼物的物质内容和它的文化意义及仪式情境是浑然一体的。故而礼物交换的分类不能单纯基于所赠物品的类型，或者只是基于礼物交换中潜在的经济原则。</li></ul><ul><li>道德义务，连同先前的社会交换所造成的人情债务，创造了一种高度可靠的紧急援助机制。</li></ul><ul><li>在惯常用法中，人情包括四种不同然而是相关的含义。第一，它意味着人的感情 —— 个人在面对多种多样的日常生活情境时基本的情感反应。在这种含义中，人情是社会性的，要求一个人根据他或她自己的情感来理解他人的情感反应。第二，人情是指一套社会规范和道德义务。这些规范和义务要求一个人与关系网中的其他人保持联系，介入礼物、问候、访问和帮助的互换。第三，在它的扩展用法中，人情可被看作一种资源，比如一种恩惠或一个礼物，可被用作一种社会交换的媒介。最后，在特定的情境中，人情被用作关系的同义词。</li></ul><ul><li>毕竟，下岬村民并不追求礼物本身，而是追求礼物能凝聚成创造的关系，即，关系网络的培养。 </li></ul><ul><li>一般认为，进行过旨在实现社会平等试验的那些国家最终都造成了新的不平等形式。这一反讽已被称为是从平均化到再分层化的一次运动</li></ul><hr><blockquote><p>在社会学角度上对农村的礼物馈赠关系进行研究。比起读大洋洲以及非洲的相关研究，场景更为熟悉，能在第一时间具象化场景并且感同身受，因而当它被抽象化为学术语言之时，就有一种十分有趣的陌生化体验。</p><p>什么时候读这类作品的感想能不仅局限于感性认识呢。</p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      「天上下雨地上滑，各人摔倒各人爬。亲戚朋友扶一把，酒换酒来茶换茶」
-    
-    </summary>
-    
-      <category term="分与读书灯" scheme="https://kashuukiyoko.github.io/categories/%E5%88%86%E4%B8%8E%E8%AF%BB%E4%B9%A6%E7%81%AF/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>BUG | 字体加载缓慢破案！</title>
-    <link href="https://kashuukiyoko.github.io/posts/cfe46ff2/"/>
-    <id>https://kashuukiyoko.github.io/posts/cfe46ff2/</id>
-    <published>2019-01-19T10:38:00.000Z</published>
-    <updated>2020-03-07T08:01:17.291Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>昨天倒腾了半天跑了无数 WARN 和出现各种奇葩 BUG（什么突然一片空白了啊，字重突然统一了啊，整个网站崩了还有文章全部神秘消失了等等等），今天早上一睡醒看到 lanee 给我发了个消息</p><blockquote><p>因为你这个载入时间太奇怪了我自己在 typekit 上试了一下，问题出在你博客用的字重是默认的 400 和 700），但是 Typekit 选的是 300 500 和 700，所以它一开始找不到该用什么字…… 简单来说是这样。</p></blockquote><p>我当时就傻了，迅速从床上跳起来开始改 css。<br>然后迎接了【我发誓我什么都没干但是整个分类栏失踪了并且跑了三屏报错】。<br>这时候就充分感受到了昨天临睡决定在 U 盘备份一份是多么正确…… 连我放在其他盘的备份都有问题这日子不要过了再重写一遍我要跳楼的。</p><p>在 CSS 文件搜索了 400 这个参数以后发现只有评论插件的字重写了 font-weight，并找不到模板默认字重在哪里，shioko 给了一个直接加在 css 文件下面的代码<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">*&#123;font-weight:300 !important&#125;</span><br><span class="line">strong&#123;font-weight:500 !important&#125;</span><br><span class="line">h1,h2,h3,h4,h5,h6&#123;font-weight:700 !important&#125;</span><br></pre></td></tr></table></figure></p><p>写上去以后首页的字重全部变成了 300，但点进文章字重正常。</p><p>…… 然后我翻到了我前几天写修改 css 配置里保存的几个配置信息，福至心灵地往 <code>post</code> 和 <code>post-content</code> 里各加上了 <code>font-weight:300；</code> 和 <code>font-weight:700；</code>，然后部署发布找了个朋友帮忙看看——她没看出来有加载！！</p><p>所以我估摸着大概是解决了吧……</p><p>经验教训说明写问题解决日志和及时备份真的太重要了。<br>以及我发现 blog 用不同浏览器看字体很不一样，用 Google 浏览器最好看。</p><hr><h3><span id="2252-更新">22:52 更新</span></h3><p>疑心病发作，把倒腾的东西全都删了，把 Abode typekit 上的字重更改成 400，重新粘贴了一遍代码</p><p>还慢的话我就不管了<em>(:з」∠)</em></p><hr><h3><span id="120-更新">1.20 更新</span></h3><p>这次更新主要是因为 lanee 告诉我又又又又又出问题了，她说昨晚是正常的，但是今天早上一看加载又不正常了，看了 github 发现是因为 github 的文件没有更新过去，仍然是昨天下午的更新。（也就是说我昨晚字重改到 400 根本没生效）</p><p>参考 <a href="https://github.com/hexojs/hexo/issues/579" target="_blank" rel="noopener">deploy 后 style.css 不对</a></p><p>解决办法：在部署发布前增加 <code>hexo clean</code>（我就说一直奇怪 clean 命令是做什么用的……）</p><p>于是我又把字重改回了 300，然后：</p><blockquote><p>我测试了一遍各种字重…… 感觉 300 就是比 400 慢</p><p>就很奇怪。比如设置 400 可能开十个页面里有一次是等待时间超过 10s，300 开十个页面就有五次……  具体的我也不懂了可能和 typekit 的代码有关系</p></blockquote><p>BUT 字重调成 400 的话我的字号会显得挤，调大一号会没有对比，为了好看我决定不要速度啦！</p><hr><h3><span id="以及另一个优化">以及另一个优化</span></h3><p>把 typekit 的代码改在了 head 文件里。</p><blockquote><p>还有一个优化的地方，就是 typekit 的代码也要放在 head 里 这样它开始加载的时间会早一点 </p><p>这几个 pug 文件格式都是一样的，对应页面不同的地方，head 就是 body 之前的部分 footer 就是页脚 </p></blockquote><p>路径是 <code>E:\hexo\themes\maupassant\layout\_partial</code>，之前一直报错，这次写在最下面突然就不报错了……</p><p>代码真是玄学<em>(:з」∠)</em>现在特别理解了，究竟是什么让程序员们围着服务器跳舞，以及请道士驱邪 。</p>]]></content>
-    
-    <summary type="html">
-    
-      「大概可能也许是解决了？→本blog推荐使用谷歌浏览器阅读」
-    
-    </summary>
-    
-      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>BUG | 解决 Abode typekit 加载字体过慢</title>
-    <link href="https://kashuukiyoko.github.io/posts/9c8d3344/"/>
-    <id>https://kashuukiyoko.github.io/posts/9c8d3344/</id>
-    <published>2019-01-18T10:38:00.000Z</published>
-    <updated>2020-03-07T08:01:08.779Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>这个问题其实源自于强迫症…… 在成功换掉了 blog 的字体以后每次打开网页都要加载大概半分多钟，经常一篇文章看都看完了字体还没有加载出来，姗姗来迟的加载好像马后炮，总是让人非常暴躁。<br>人一暴躁就吃不下睡不好，虽然我想减肥但是也得解决它，抄起 Google 百度我就上了。</p><p>通过 Google，发现中文字体的加载本身就是一个老大难问题，英文只有 26 个字母，而中文有几千个字，字体文件很大，所以加载会很慢。所以最开始的思路是能不能通过对字库的精简来解决这个加载问题——没打开一篇文章，只加载文章里用到的字。<br>在这里通用的网页解决方法似乎是 <a href="http://font-spider.org/" target="_blank" rel="noopener">字蛛</a>，一个中文字体压缩器，但 CMX 的 lanee 告诉我说字蛛不适合 blog，粗看了一下也确实太麻烦，就放弃了。<br>并且后来发现 Abode Typekit 本身就是动态调用的，所以搞了半天就调用这么几个字也这么慢……</p><p>晚上和旋岚在研究这个问题，我觉得他能跟我一起纠结这种纯属强迫症发作的问题真的是人太好了…… 讨论以后明确了字体加载过程是不可避的，那么只能想办法把它变慢（调用 / 下载速度更快），或者想办法绕开这个问题。<br>这时候我找到了两个 blog，共同的特点是不需要经过加载过程，直接显示思源宋体，非常流畅。<br>…… 我十分不乐意，凭什么我做不到嘛！发给旋岚，结果旋岚说这两个 blog 他是需要加载的，我和他唯一的区别是我在电脑上装了思源而他没有，因此这两个 blog 实际上调用的是我的本地字库，不从 Abode Typekit 调用，那当然没有加载过程啦。</p><p>那么解决方案就变成了：</p><ol><li>如果电脑上有思源宋体，那么调用本地字体</li><li>如果电脑上没有，从 Abode Typekit 调用加载</li></ol><p>之前 shioko 给过我一个类似的解决方案，但是她说这个方案会更慢，我研究了一下，果不其然，成功报错。（事实上我搞代码这种东西不报错才不正常……）<br>两个人又吭哧吭哧研究了半天，旋岚突然截个图跟我说，你看你这个字体文件的名字显示的不是 <code>source-han-serif-sc, serif</code> 而是 <code>思源宋体 CN Medium</code><br>我福至心灵一拍大腿，去重写了 family-font<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">font-family: &quot; 思源宋体 CN&quot;, &quot;source-han-serif-sc&quot;, serif,&quot;PingFangSC-Regular&quot;, Helvetica, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, &quot;Source Han Sans CN&quot;, &quot;Microsoft YaHei&quot;, &quot;STHeiti&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif !important;</span><br></pre></td></tr></table></figure></p><p>hexo s -debug，成功了！</p><hr><h3><span id="最后的解决方案">最后的解决方案</span></h3><p>在 Style.css 文件的 pure-g，body，.post-title 下面的 family-font 行的最前面分别加上 <code>&quot;思源宋体 CN&quot;, serif,</code>，当你电脑里有思源宋体的时候，就会直接调用你的本地字体</p><p>至于没有的人从 Abode Typekit 加载慢怎么办…… 反正客观事实是字体文件每个 10M，这种老大难问题就交给比较会玩的人来研究吧，我先自己爽了再说（……</p><h3><span id="以及另一个小优化">以及另一个小优化</span></h3><p>放弃使用 <code>&lt;!--more--&gt;</code> 而使用在 <code>front-matter</code> 中添加 <code>description:</code> 的方式来显示文章首页的摘要，这样做的优势是点进正文以后不会再显示缩略部分和一个奇丑无比的分割线上文字，那个位置真的很多次让我想要打人。<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">title: 题红 | 解决 Abode typekit 加载字体过慢 </span><br><span class="line">categories:</span><br><span class="line">- 飞来就我题红 </span><br><span class="line">description:</span><br><span class="line">- 其实是一个妥协方案，但是毕竟我拯救不了世界 </span><br></pre></td></tr></table></figure></p><p>之前疯狂报错的原因：<code>front-matter</code> 最下面那道分割线真的不能删<em>(:з」∠)</em></p>]]></content>
-    
-    <summary type="html">
-    
-      「其实是一个妥协方案，但是毕竟我拯救不了世界」
-    
-    </summary>
-    
-      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>BUG | 修改 Maupassant 主题字体为思源宋体</title>
-    <link href="https://kashuukiyoko.github.io/posts/ba0a4218/"/>
-    <id>https://kashuukiyoko.github.io/posts/ba0a4218/</id>
-    <published>2019-01-16T10:38:00.000Z</published>
-    <updated>2020-03-07T08:00:28.091Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>起因：思源宋体真的很好看<br>需求：将 blog 的标题与正文修改为思源宋体<br>tips：每一步的目的都是猜的，用词对不对我也不知道，大概理会中心思想就好么么哒</p><p>步骤：</p><h3><span id="在-adobe-typekit-网站上注册账号并且打包字体">在 Adobe Typekit 网站上注册账号，并且打包字体</span></h3><p>网址为：<a href="https://fonts.adobe.com/" target="_blank" rel="noopener">Adobe Typekit</a><br>这一步可以让没有安装思源宋体的电脑也能够使用这个字体<del>（就是 loading 速度有点慢）</del></p><ol><li>右上角注册 Adobe 账号，地区选择 <code>United states</code></li><li>登陆后，搜索栏搜索 <code>Source Han Serif Simplified Chinese</code> </li><li>点击 &lt;/&gt; 按钮，在 <code>Enter a new project name</code> 处随便输入一个名字，点击 <code>Show 5 more</code> ，选择你需要的字重（建议是 light，Medium 和 bold 这三个。）</li><li><p>点击 <code>create</code> 按钮，右上角复制按钮把显示的代码复制下来，备用</p><p>如：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">  (function(d) &#123;</span><br><span class="line">    var config = &#123;</span><br><span class="line">      kitId: &apos;paj7pia&apos;,</span><br><span class="line">      scriptTimeout: 3000,</span><br><span class="line">      async: true</span><br><span class="line">    &#125;,</span><br><span class="line">    h=d.documentElement,t=setTimeout(function()&#123;h.className=h.className.replace(/\bwf-loading\b/g,&quot;&quot;)+&quot; wf-inactive&quot;;&#125;,config.scriptTimeout),tk=d.createElement(&quot;script&quot;),f=false,s=d.getElementsByTagName(&quot;script&quot;)[0],a;h.className+=&quot; wf-loading&quot;;tk.src=&apos;https://use.typekit.net/&apos;+config.kitId+&apos;.js&apos;;tk.async=true;tk.onload=tk.onreadystatechange=function()&#123;a=this.readyState;if(f||a&amp;&amp;a!=&quot;complete&quot;&amp;&amp;a!=&quot;loaded&quot;)return;f=true;clearTimeout(t);try&#123;Typekit.load(config)&#125;catch(e)&#123;&#125;&#125;;s.parentNode.insertBefore(tk,s)</span><br><span class="line">  &#125;)(document);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure></li></ol><p>到这一步就打包好了，接下来改动 hexo 本地文件夹中的配置文件，使这个代码在 blog 配置文件中生效，也就是让 blog 能够顺利调用<a href="https://fonts.adobe.com/" target="_blank" rel="noopener">Adobe Typekit</a> 网站上你选好的字体。</p><h3><span id="修改-after_footerpug-文件">修改 after_footer.pug 文件</span></h3><p>这个文件具体干嘛的我也不是很清楚，反正走完这一步 blog 就能用思源宋体了</p><ol><li>文件位置在你的 hexo 文件夹 <code>\themes\maupassant\layout\_partial</code> 的位置</li><li>打开它，拉到最下面，粘贴你刚刚复制的代码</li><li>修改最上面的 <code>&lt;script&gt;</code> 为 <code>script.</code> ，删除最下面的 <code>&lt;script&gt;</code> ，注意缩进关系<br> 这一步改完以后效果应当是这样的：</li></ol><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">script(type=&apos;text/javascript&apos;, src=url_for(theme.js) + &apos;/codeblock-resizer.js&apos; + &apos;?v=&apos; + theme.version)</span><br><span class="line">script(type=&apos;text/javascript&apos;, src=url_for(theme.js) + &apos;/smartresize.js&apos; + &apos;?v=&apos; + theme.version)</span><br><span class="line">script.</span><br><span class="line">  (function(d) &#123;</span><br><span class="line">    var config = &#123;</span><br><span class="line">      kitId: &apos;wsr0swh&apos;,</span><br><span class="line">      scriptTimeout: 3000,</span><br><span class="line">      async: true</span><br><span class="line">    &#125;,</span><br><span class="line">    h=d.documentElement,t=setTimeout(function()&#123;h.className=h.className.replace(/\bwf-loading\b/g,&quot;&quot;)+&quot; wf-inactive&quot;;&#125;,config.scriptTimeout),tk=d.createElement(&quot;script&quot;),f=false,s=d.getElementsByTagName(&quot;script&quot;)[0],a;h.className+=&quot; wf-loading&quot;;tk.src=&apos;https://use.typekit.net/&apos;+config.kitId+&apos;.js&apos;;tk.async=true;tk.onload=tk.onreadystatechange=function()&#123;a=this.readyState;if(f||a&amp;&amp;a!=&quot;complete&quot;&amp;&amp;a!=&quot;loaded&quot;)return;f=true;clearTimeout(t);try&#123;Typekit.load(config)&#125;catch(e)&#123;&#125;&#125;;s.parentNode.insertBefore(tk,s)</span><br><span class="line">  &#125;)(document);</span><br></pre></td></tr></table></figure><h3><span id="修改-css-配置">修改 CSS 配置</span></h3><p>这一步的目的是让引用的字体文件能应用到 blog 样式里，修改的 <code>font-family:</code> 行按顺序读取字体名称进行显示，所以把字体名称加进去的时候要加在最前面</p><ol><li>搜索 <code>pure-g</code>，找到 <code>font-family:</code> 行，在最前面加入 <code>&quot;source-han-serif-sc&quot;, serif,</code> </li><li>搜索 <code>body</code> ，找到 <code>font-family:</code> 行，在最前面加入 <code>&quot;source-han-serif-sc&quot;, serif,</code><br>这一步做完了理论上就完成了，对 blog 进行部署即可</li></ol><h3><span id="我另外做了几件事">我另外做了几件事</span></h3><ol><li><p>搜索了其他的 <code>font-family:</code> 段，在其他 <code>font-family:</code> 段里加入了字体名称，试图修改掉 page 名的字体，结论失败，这个好像不能在 CSS 文件中进行修改（旋岚：好像这个东西和图标是一套的 ，我们自己能改的是 style.css，它来源于 font-awsome.min.css ）</p></li><li><p>修改 blog 的字体大小，字体控制分别是以下这几段代码</p><p>全局：搜索 <code>body</code> ，修改 <code>font-size: 15px</code>，px 就是字体大小<br>标题：搜索 <code>post</code>，修改 <code>font: 700 25px/1.1</code>，<br>正文：搜索 <code>post-content</code>，修改 <code>font-size: 15px</code>，</p></li></ol><h3><span id="最终思路回顾">最终思路回顾</span></h3><p>在 Adobe Typekit 网站中调用需要的字体→将字体引用代码扔进 blog 本地文件供 blog 使用→修改 CSS 样式文件让 blog 优先显示你选择的字体</p><h3><span id="顺便">顺便</span></h3><p>改完了以后我用来替代”阅读全文“的小云朵可爱了十八倍！从端庄的淑女云变成了香香软软的面包云！</p><h3><span id="鸣谢">鸣谢</span></h3><p>大力感谢旋岚的手把手教程，太麻烦你啦谢谢你教我！！！</p>]]></content>
-    
-    <summary type="html">
-    
-      「大力感谢旋岚的手把手教程，太麻烦你啦谢谢你教我！！！」
-    
-    </summary>
-    
-      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>BUG | 修改 Maupassant 主题背景颜色</title>
-    <link href="https://kashuukiyoko.github.io/posts/2ccd8897/"/>
-    <id>https://kashuukiyoko.github.io/posts/2ccd8897/</id>
-    <published>2019-01-15T10:38:00.000Z</published>
-    <updated>2020-03-07T08:02:37.115Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>起因：觉得 blog 雪白一片特别伤眼<br>需求：给 blog 换个底色，最好是带纹理的那种高级灰<br>步骤：</p><ol><li>上网搜教程，发现全网都是 Next 主题修改，套用之，发现没用，页面还变成拨号上网时代页面没加载出来的样式，仿佛见鬼</li><li>找到 Hexo\themes\maupassant\source\CSS\style.scss 文件逐行阅读，读不懂，但是发现了多处十六进制颜色码</li><li>搜索「#」寻找颜色码进行排查</li></ol><p>结论：<br>在 style.scss 文件中搜索<br>   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">   background-color: #E9E9ED;</span><br></pre></td></tr></table></figure></p><p>替换 #E9E9ED 为想要的背景色即可（顺便一提我用的是 #F6F6F6</p><p>我真是天才又机智！<br>感觉这个色不够冷看起不够高雅但是算了先这样<br>还有纹理什么的我们也过几天再议吧（。</p><p>以及两个或许有帮助的网站：<br><a href="https://colorhunt.co/" target="_blank" rel="noopener">一个漂亮的配色方案网站</a><br><a href="https://www.sioe.cn/yingyong/yanse-rgb-16/" target="_blank" rel="noopener">RGB 颜色值与十六进制颜色码转换</a></p><hr>]]></content>
-    
-    <summary type="html">
-    
-      「成功治好了我的英文阅读恐惧症」
-    
-    </summary>
-    
-      <category term="飞来就我题红" scheme="https://kashuukiyoko.github.io/categories/%E9%A3%9E%E6%9D%A5%E5%B0%B1%E6%88%91%E9%A2%98%E7%BA%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>书摘 | 一些零散的汇总</title>
-    <link href="https://kashuukiyoko.github.io/posts/bd4630bf/"/>
-    <id>https://kashuukiyoko.github.io/posts/bd4630bf/</id>
-    <published>2019-01-13T11:37:00.000Z</published>
-    <updated>2019-01-28T14:50:48.576Z</updated>
-    
-    <content type="html"><![CDATA[<hr><h3><span id="长恨歌">【长恨歌】</span></h3><ul><li>人生真是连成一串的锁链，想独取一环谈何容易。</li></ul><h3><span id="爱玛-by-简-奥斯汀">【爱玛】 by 简 · 奥斯汀</span></h3><ul><li>天下就有这样的人，你越是多管他们，他们就越是不管自己。</li><li>不过，你既然想要讨好别人，就势必会有疏忽的地方，而且疏忽的地方还不少。</li><li>她出于让人无法容忍的自负，以为自己能看透每个人内心的秘密；出于不可饶恕的自大，硬要安排每个人的命运。结果，她一次次地犯错误。她也不是一事无成——她造成了危害。她害了哈丽特，害了她自己，而且她还很担心，也害了奈特利先生。假如天下最不般配的这门亲事成为事实的话，那她要承担全部罪责，因为事情是她起的头；因为她坚决相信，奈特利先生的感情只可能是由于意识到哈丽特爱他之后才产生的。即使并非如此，若不是因为她爱玛的愚蠢，他也不会认识哈丽特。</li></ul><h3><span id="木匠手记-by-尼娜-麦克劳林">【木匠手记】 by 尼娜 • 麦克劳林</span></h3><ul><li>墙壁证明了人类情感上的需要，这和结构上的需要一样重要。墙壁让我们不必经受风雨，不必见到陌生人。墙壁保证我们的私人活动和生活不被人所知。墙壁让我们不必把缺点和恐惧暴露在外。墙壁传递出的信号是：我们是脆弱的。</li><li>伊壁鸠鲁写道：“人类在对抗疾病的时候可能会找到防护措施，但是面对死亡的时候，我们是住在一个没有墙壁的城市里。” 你可以造一个棺材，但你不能造一堵将死亡拒之在外的墙。</li><li>当我专注在动作中的时候，墙壁消失了，所有的分隔和障碍都消失了。回声响起，巨大的爆炸声前后回荡。每一秒钟，相较曾经的自己，我们都有所失去，这和十个世纪之后屋顶依旧漏雨一样。我们所有人在某个时刻都不宜动手术。当墙壁筑起，我们在空间中简单地挥动工具，或分享一个故事，就可以和墙后的东西连在一起，这样的时刻里我们不必面对巨大的冷漠之墙。而我们感受到的，不再是害怕、巨大的恐惧和绝望，反而可能是平静和喜悦</li><li>在标记岁月的年轮里，在铜锣的回声中，在窗户的框架里，在每日都能见到的坚不可摧的东西里，我们找到了真实。在爱里，亦是如此。对于所有人类而言，你存在了，而非没有存在，同时我又找到了你。这就是奇迹，是不是？也许这更接近于一个恩典的时刻，这种觉醒带着仪式般的重量，把我们和世界连结在一起。</li><li>木材成为硬木、软木的条件和它们的繁殖方式有关。让我来唤醒大一生物课的幽灵：被子植物就是种子外有果皮包被的植物，一般来说，落叶树（树叶会脱落的树）都是硬木树。红木，胡桃木，橡木，柚木和梣木是硬木的典型。而松木，云杉，雪松，红杉和针叶树等都是软木，这些也都是裸子植物。它们的种子在空中飞舞，外面没有果皮。软木成长速度快，通常比硬木便宜。硬木通常密度更大，巴杉木是个例外，夏天的时候两片巴杉木做成的飞机可以在后院飞来飞去。</li></ul><h3><span id="夏日终曲-by-安德列-艾席蒙">【夏日终曲】 by 安德列 · 艾席蒙</span></h3><ul><li>但一切的开始也可能比我想的要晚了许多，在我浑然不觉的时候。你看见一个人，但你其实没真看到他，他还在幕后，正准备登场；或者你注意到他了，可是没有心动，也没有 “火花”，甚至在你意识到某个存在或有什么在困扰你之前，你所拥有的六个星期就快成为过去，而他若非已经不在，就是即将离开。实际上，你在慌乱地接近自己也不知情的东西，它已经在你眼皮子底下酝酿了数周，而且所有的征兆都让你不得不呼喊我想要。你会问自己：怎么没能早点明白？我一向清楚欲望为何物啊。然而，这次它悄悄溜过，不着痕迹。我喜欢他每次看破我心思时，脸上闪现的那一抹狡黠的笑，而我真心渴望的其实只是肌肤，只是肌肤。</li><li>新欢的痛苦、郁热和震颤，眼看就能获得的美满幸福，却仍在咫尺之外徘徊；在他身边总是坐立不安，怕领会错他意思，担心失去他，遇事都要揣测再三；想要他也想被他要，使出各种诡计；架起重重纱窗，仿佛自己与世界之间立着不止一层的纸拉门；急吼吼地把本来就不算事的事儿煞有介事鼓捣一番后又装作若无其事。</li><li>当两个存在不仅需要亲密共处，而且需要水乳交融地化为彼此时，会发生什么？若从肉体和隐喻的角度去理解，或许就显得愚笨了。他让我成为我自己，我也让他成为他自己。他是我走向自己的秘密通道——就像是促使我们成为自己的催化剂，还像异质的身体，起搏器，移植物，传导正常脉冲的贴片，固定士兵骨头的钢钉，让我们比移植前更像自己的他人的心脏。</li><li>我这辈子从没这么开心过。不可能有任何差池，一切如我所愿，所有的门都咔嗒咔嗒一扇接一扇打开了，生命不可能更灿烂了：生命直接照耀着我，我的单车左转右转，或想要避开生命之光，可它却像聚光灯追随台上的演员一样追着我跑。我渴望着他，但没有他，我也能同样轻松度日，有没有他都好。</li><li>接着我们冲澡，然后出门，感觉我们就像两条裸露却通电的电线，只要彼此轻触就会冒出火花。看到旧房子就想拥抱彼此，看到街角的路灯柱就想像条狗似的撒尿，经过艺廊就在裸体像上找洞，遇到一张只不过是朝我们笑了笑的脸，就想亲密地上前，把那人衣服脱光，请她，或他，或两人一起，先跟我们喝酒，吃晚餐，做什么都好。罗马处处可见丘比特，因为我们剪下了他的一只翅膀，所以他不得不在空中盘旋。</li><li>有可能会见到他的家人，让我惊慌失措——太真实，太突然，太直接了，演练得还不够。过去几年来，我一直把他存放在永恒的过去，视他为过去完成式的恋人，将他冰存，以回忆和樟脑丸填满他，就像在与夜的幽灵交谈的动物标本。我偶尔把他拿出来掸一掸灰尘，再放回壁炉架上。他不再属于尘世或生活。此时我发现，不只是我们选择的路相距有多远，还有即将向我袭来的失落有多大，无非是这些东西而已。我不介意用抽象的术语去思考这份失落，但被盯着看却令人心痛。在我们已经不再想起已经失去的，或许可能也不会再在乎之后很久，怀旧之情仍然令人心痛。</li></ul><h3><span id="我的天才女友-by-埃莱娜-费兰特">【我的天才女友】 by 埃莱娜 · 费兰特</span></h3><ul><li>她们比男人更容易感染这种病，男人不断发火，最后他们会平息下来，但是女人呢，她们表面上很安静，心平气和，但她们会愤怒到底，停不下来。</li><li>“有太多糟糕的骑士小说了，莱诺！他们塑造了一个堂吉诃德，我们很尊敬堂吉诃德，但在那不勒斯，我们不需要他，我们不需要和风车作战，那只是白费力气，我们需要了解风车的运作方式，并且能让风车发挥作用的人。”</li><li>我们就是庶民，庶民就是争抢食物和酒，就是为了上菜的先后次序、服务好坏而争吵，就是那面肮脏的地板——服务员正在上面走来走去，就是那些越来越粗俗的祝酒词。</li></ul><hr>]]></content>
-    
-    <summary type="html">
-    
-      「《长恨歌》、《爱玛》、《木匠手记》、《夏日终曲》、《我的天才女友》」
-    
-    </summary>
-    
-      <category term="分与读书灯" scheme="https://kashuukiyoko.github.io/categories/%E5%88%86%E4%B8%8E%E8%AF%BB%E4%B9%A6%E7%81%AF/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>书评 | 鉴定你是否能够愉快阅读《银河系漫游指南》</title>
-    <link href="https://kashuukiyoko.github.io/posts/8301487a/"/>
-    <id>https://kashuukiyoko.github.io/posts/8301487a/</id>
-    <published>2019-01-12T08:38:00.000Z</published>
-    <updated>2019-01-28T14:50:48.574Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>我不知道为什么出版社要把这本书的名字翻得这么无趣但是我很快乐地在道格拉斯亚当斯的胡言乱语里度过了两个小时，道格拉斯亚当斯天下第一 </p><hr><p>如果有朋友疑惑自己是否能够接受道格拉斯的风格而迟迟没有阅读《银河系漫游指南》的话，恭喜你，你找到了一个足够简单并且足够精确的判断方式：打开《全能侦探社》，第一本，阅读前三章，一共只有九页——当然啦，其实我希望你把第四章也捎带着读一遍，这样就会增加到三十四页，与此同时，乐趣也同样增加了三倍。<br>这本书的前三章讲了：<br><strong> 第一章：</strong> 一些看起来很不知所云的场景描写，一团光，一个人影，一束新的，惊人的白光，时间与太阳。在未来两章内，你会迅速地把它们忘掉。<br><strong> 第二章：</strong> 一匹马，一个出了故障，相信峡谷是粉色的电僧，和一些絮絮叨叨的看似很有道理的埋怨<br><strong> 第三章：</strong> 一个等待的人类，她决定放弃等待某个人，然后她决定去约另一个人。<br>如果你看完这三章还没有开始在社交网站上抱怨这本书莫名其妙，而是发出了英式风格（说起来，什么是英式风格？）的大笑，恭喜你，你在道格拉斯亚当斯相性测试里拿到了漂亮的分数，从此可以去补他的更多著作了。</p><hr><p>至于剧情？——去看其他人的剧透分析吧，难道不是只要快乐就好了吗？<br>PS. 不要相信封面封底的任何评价<br>PPS. 读完以后，你会发现，他们说的都对</p><hr><p>真的很不想写这本书的书评，但是以上就是我对这本书的全部观点<br>在 2019 年，快乐本身就是很奢侈的事情了，为什么快乐也要有意义呢？</p>]]></content>
-    
-    <summary type="html">
-    
-      「不要相信封面封底的任何评价」
-    
-    </summary>
-    
-      <category term="分与读书灯" scheme="https://kashuukiyoko.github.io/categories/%E5%88%86%E4%B8%8E%E8%AF%BB%E4%B9%A6%E7%81%AF/"/>
     
     
   </entry>
